@@ -13,6 +13,8 @@ import random
 import json
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Callable
+from collections import deque
+import re
 from datetime import datetime
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -50,6 +52,8 @@ class WebUIMassiveGenerator:
             'total_time': 0,
             'memory_cleanups': 0
         }
+        # Mantener huella de combinaciones recientes para evitar repeticiones
+        self._recent_signatures: deque[str] = deque(maxlen=100)
         
         # Datos de diversidad étnica
         self.diversity_data = self._load_diversity_data()
@@ -366,15 +370,20 @@ class WebUIMassiveGenerator:
             # Generar prompt único basado en el perfil
             prompt, negative_prompt = self._generate_unique_prompt(profile)
             
-            # Parámetros homogéneos (misma cámara, misma distancia)
+            # Parámetros con ligera aleatoriedad controlada para mayor diversidad
+            import random
+            cfg_val = round(random.uniform(6.5, 8.0), 1)
+            steps_val = random.randint(22, 30)
+            sampler_val = random.choice(['DPM++ 2M Karras', 'DPM++ SDE Karras'])
+
             params = {
                 'prompt': prompt,
                 'negative_prompt': negative_prompt,
                 'width': 512,  # Resolución homogénea
                 'height': 512,  # Como misma cámara
-                'steps': 30,
-                'cfg_scale': 9.0,  # CFG alto para seguir instrucciones
-                'sampler_name': 'DPM++ 2M Karras',
+                'steps': steps_val,
+                'cfg_scale': cfg_val,
+                'sampler_name': sampler_val,
                 'seed': -1,
                 'batch_size': 1,
                 'n_iter': 1,
@@ -442,12 +451,136 @@ class WebUIMassiveGenerator:
         jawline = profile['jawline']
         cheekbones = profile['cheekbones']
         
-        # Prompt positivo simplificado (basado en muestras exitosas)
+        # Intentar cargar prompts desde Consulta/gui_config.json para asegurar términos de color
+        try:
+            consulta_dir = Path(__file__).parent / "Consulta"
+            gui_config_path = consulta_dir / "gui_config.json"
+            if gui_config_path.exists():
+                with open(gui_config_path, 'r', encoding='utf-8') as f:
+                    gui_cfg = json.load(f)
+                base_prompt = gui_cfg.get('base_prompt', '')
+                neg_prompt = gui_cfg.get('negative_prompt', '')
+
+                # Sistema de diversidad regional automática
+                import random
+                regiones_venezuela = [
+                    "Caracas", "La Guaira", "Valencia", "Maracay", "Maracaibo", "Barquisimeto",
+                    "Ciudad Guayana", "Ciudad Bolívar", "Puerto Ayacucho", "San Fernando de Apure",
+                    "Barinas", "Mérida", "San Cristóbal", "Trujillo", "Valera", "Cumaná",
+                    "Maturín", "Barcelona", "Puerto La Cruz", "El Tigre", "Porlamar",
+                    "Coro", "Punto Fijo", "Guanare", "San Juan de los Morros", "San Carlos",
+                    "Yaritagua", "Tucupita"
+                ]
+                
+                # Seleccionar región aleatoria si no está especificada
+                if region == "aleatorio" or not region:
+                    region = random.choice(regiones_venezuela)
+                
+                # Selección aleatoria de rasgos físicos para mayor diversidad
+                skin_tones = [
+                    "very fair", "fair", "light", "light olive", "olive", "tan", "honey", "bronze",
+                    "brown", "dark brown", "very dark"
+                ]
+                hair_colors = [
+                    "black", "dark brown", "brown", "auburn", "chestnut", "dark blonde", "medium blonde",
+                    "light blonde", "strawberry blonde", "copper", "gray", "salt and pepper"
+                ]
+                hair_styles = [
+                    "straight", "wavy", "curly", "coily", "short", "long", "shoulder-length", "bob cut",
+                    "pixie cut", "ponytail", "bun", "braided", "afro", "loose", "tied back"
+                ]
+                eye_colors = [
+                    "very dark brown", "dark brown", "brown", "hazel", "light brown", "amber",
+                    "green", "blue", "gray"
+                ]
+                eye_shapes = [
+                    "almond", "round", "slightly hooded", "slightly upturned", "slightly downturned",
+                    "deep set"
+                ]
+                face_shapes = [
+                    "oval", "round", "square", "heart", "long", "diamond"
+                ]
+                nose_shapes = [
+                    "straight", "slightly aquiline", "button", "broad", "refined", "nubian"
+                ]
+                lip_shapes = [
+                    "full", "medium fullness", "defined", "thin upper lip", "balanced lips", "heart-shaped"
+                ]
+                eyebrow_styles = [
+                    "natural", "slightly arched", "straight", "softly curved", "thick natural"
+                ]
+                jawlines = [
+                    "soft jawline", "defined jawline", "slightly rounded jawline", "angular jawline"
+                ]
+                cheekbone_defs = [
+                    "subtle cheekbones", "defined cheekbones", "high cheekbones", "prominent cheekbones"
+                ]
+
+                # Atributos opcionales (activación por probabilidad)
+                optional_traits = []
+                if random.random() < 0.25:
+                    optional_traits.append("light freckles")
+                if random.random() < 0.20:
+                    optional_traits.append("few moles")
+                if random.random() < 0.15:
+                    optional_traits.append("slight asymmetry")
+
+                # Edad aleatoria dentro del rango si es posible (acepta formatos como "18-25" o "18-25 years old")
+                age_text = age_range
+                try:
+                    if isinstance(age_range, str) and '-' in age_range:
+                        nums = re.findall(r"\d+", age_range)
+                        if len(nums) >= 2:
+                            lo_i, hi_i = int(nums[0]), int(nums[1])
+                            if lo_i <= hi_i:
+                                age_text = f"{random.randint(lo_i, hi_i)} years old"
+                except Exception:
+                    pass
+
+                # Intentar generar combinación no repetida
+                for _ in range(6):
+                    rnd_skin_tone = random.choice(skin_tones)
+                    rnd_hair_color = random.choice(hair_colors)
+                    rnd_hair_style = random.choice(hair_styles)
+                    rnd_eye_color = random.choice(eye_colors)
+                    rnd_eye_shape = random.choice(eye_shapes)
+                    rnd_face_shape = random.choice(face_shapes)
+                    rnd_nose_shape = random.choice(nose_shapes)
+                    rnd_lip_shape = random.choice(lip_shapes)
+                    rnd_eyebrows = random.choice(eyebrow_styles)
+                    rnd_jawline = random.choice(jawlines)
+                    rnd_cheekbones = random.choice(cheekbone_defs)
+
+                    signature = ",".join([
+                        region, rnd_skin_tone, rnd_hair_color, rnd_hair_style,
+                        rnd_eye_color, rnd_eye_shape, rnd_face_shape,
+                        rnd_nose_shape, rnd_lip_shape, rnd_eyebrows,
+                        rnd_jawline, rnd_cheekbones
+                    ])
+                    if signature not in self._recent_signatures:
+                        self._recent_signatures.append(signature)
+                        break
+
+                # Enriquecer con diversidad regional + rasgos aleatorios por imagen
+                enrichment = (
+                    f", {nationality} {gender}, {age_text}, from {region} region, "
+                    f"{rnd_skin_tone} skin, {rnd_hair_color} hair, {rnd_hair_style} hair, "
+                    f"{rnd_eye_color} eyes, {rnd_eye_shape} eyes, {rnd_face_shape} face, "
+                    f"{rnd_nose_shape} nose, {rnd_lip_shape} lips, {rnd_eyebrows} eyebrows, "
+                    f"{rnd_jawline}, {rnd_cheekbones}"
+                )
+                if optional_traits:
+                    enrichment += ", " + ", ".join(optional_traits)
+                enrichment += ", diverse regional features, authentic venezuelan appearance"
+                prompt = (base_prompt + enrichment).strip(', ')
+                negative_prompt = neg_prompt
+                return prompt, negative_prompt
+        except Exception:
+            pass
+
+        # Fallback a prompts internos si no hay gui_config.json disponible
         prompt = f"{nationality} {gender}, {age_range}, from {region} region, {skin_tone} skin, {skin_texture} skin texture, {hair_color} hair, {hair_style} hair, {eye_color} eyes, {eye_shape} eyes, {facial_structure} face, {nose_shape} nose, {lip_shape} lips, {eyebrows} eyebrows, {jawline} jawline, {cheekbones} cheekbones, passport photo, professional headshot, looking directly at camera, facing camera directly, front view, head centered, face centered, neutral expression, raw photography, documentary style, unretouched, natural skin texture, pores visible, natural skin imperfections, authentic appearance, candid photography, natural lighting, centered composition, symmetrical positioning, pure white background, solid white background, clean white background, uniform white background, plain white background, studio white background"
-        
-        # Prompt negativo simplificado (basado en muestras exitosas)
         negative_prompt = "3/4 view, side profile, profile view, looking away, looking left, looking right, looking up, looking down, tilted head, turned head, angled face, off-center, asymmetrical, smiling, laughing, frowning, multiple people, blurry, low quality, distorted, deformed, ugly, bad anatomy, bad proportions, extra limbs, missing limbs, extra fingers, missing fingers, extra arms, missing arms, extra legs, missing legs, extra heads, missing heads, extra eyes, missing eyes, extra nose, missing nose, extra mouth, missing mouth, text, watermark, signature, gradient background, gradient, faded background, textured background, patterned background, noisy background, complex background, busy background, shadows on background, lighting effects on background, colored background, colored backdrop, tinted background, off-white background, cream background, beige background, gray background, light gray background, dark background, black background, blue background, green background, red background, yellow background, purple background, orange background, brown background, wood background, wall background, fabric background, paper background, canvas background, brick background, stone background, metal background, glass background, mirror background, reflection, shadows, lighting, spotlight, soft lighting, dramatic lighting, rim lighting, back lighting, side lighting, top lighting, bottom lighting, ambient lighting, natural lighting, artificial lighting, studio lighting, flash lighting, harsh lighting, dim lighting, bright lighting, overexposed, underexposed, high contrast, low contrast, saturated colors, desaturated colors, vibrant colors, muted colors, warm colors, cool colors, neutral colors, pastel colors, bold colors, subtle colors, airbrushed, photoshopped, retouched, smooth skin, perfect skin, flawless skin, glowing skin, shiny skin, oily skin, greasy skin, plastic skin, artificial skin, digital art, 3d render, cg, computer generated, synthetic, fake, artificial, overexposed, bright lighting, studio lighting, flash photography, harsh lighting, dramatic lighting, cinematic lighting, professional lighting, perfect lighting, ideal lighting, enhanced, improved, perfected, beautified, glamorized, stylized, artistic, aesthetic, beautiful, attractive, handsome, pretty, gorgeous, stunning, perfect, ideal, flawless, immaculate, pristine, clean, pure, crystal clear, sharp, crisp, vibrant, saturated, colorful, bright, luminous, radiant, brilliant, sparkling, shining, glowing, glossy, polished, refined, elegant, sophisticated, luxurious, premium, high-end, professional, commercial, advertising, marketing, fashion, beauty, cosmetic, makeup, foundation, concealer, powder, blush, lipstick, mascara, eyeliner, eyeshadow, contouring, highlighting, bronzer, primer, setting spray, finishing powder, model look, supermodel appearance, celebrity look, fashion model, beauty model"
-        
         return prompt, negative_prompt
     
     def _generate_unique_filename(self, profile: Dict[str, Any]) -> str:

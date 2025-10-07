@@ -110,8 +110,14 @@ class WebUIPasaportes:
                 "sampler_name": configuracion['configuracion_tecnica']['sampler'],
                 "batch_size": 1,
                 "n_iter": 1,
+                "seed": -1,
                 "save_images": False,
-                "send_images": True
+                "send_images": True,
+                # Forzar heredar modelo activo y evitar estilos/LoRAs que desaturen
+                "override_settings": {},
+                "styles": [],
+                "disable_extra_networks": True,
+                "do_not_save_grid": True
             }
             
             # Enviar solicitud a la API
