@@ -1,0 +1,27 @@
+{
+  "name": "Diversidad Venezolana",
+  "description": "Configuración para generar diversidad étnica venezolana con variaciones regionales",
+  "created": "2025-09-13T00:18:36.991517",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "venezolana",
+      "cantidad": 25,
+      "edad_min": 18,
+      "edad_max": 55,
+      "prompt_type": "venezuelan_diversity",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 25,
+      "cfg_scale": 7.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 2,
+      "n_iter": 1
+    }
+  }
+}

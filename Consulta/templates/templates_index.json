@@ -1,0 +1,129 @@
+{
+  "templates": {
+    "Pasaporte Profesional": {
+      "name": "Pasaporte Profesional",
+      "description": "Configuración para fotos de pasaporte profesionales",
+      "created": "2025-09-13T00:17:56.424325",
+      "last_used": "2025-09-13T00:17:56.431058",
+      "usage_count": 1,
+      "file": "Pasaporte Profesional.json"
+    },
+    "Retrato Realista": {
+      "name": "Retrato Realista",
+      "description": "Configuración para retratos realistas con imperfecciones naturales",
+      "created": "2025-09-13T00:17:56.425788",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Retrato Realista.json"
+    },
+    "Diversidad Étnica": {
+      "name": "Diversidad Étnica",
+      "description": "Configuración para generar diversidad étnica variada",
+      "created": "2025-09-13T00:17:56.427805",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Diversidad Étnica.json"
+    },
+    "Pasaporte Cubano": {
+      "name": "Pasaporte Cubano",
+      "description": "Configuración específica para fotos de pasaporte cubanas con características étnicas auténticas",
+      "created": "2025-09-13T00:18:36.961520",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Pasaporte Cubano.json"
+    },
+    "Retrato Artístico": {
+      "name": "Retrato Artístico",
+      "description": "Configuración para retratos artísticos con iluminación natural y texturas realistas",
+      "created": "2025-09-13T00:18:36.988798",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Retrato Artístico.json"
+    },
+    "Diversidad Venezolana": {
+      "name": "Diversidad Venezolana",
+      "description": "Configuración para generar diversidad étnica venezolana con variaciones regionales",
+      "created": "2025-09-13T00:18:36.991517",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Diversidad Venezolana.json"
+    },
+    "Documento Oficial": {
+      "name": "Documento Oficial",
+      "description": "Configuración para fotos de documentos oficiales con estándares gubernamentales",
+      "created": "2025-09-13T00:18:36.994190",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Documento Oficial.json"
+    },
+    "Haitiano Realista": {
+      "name": "Haitiano Realista",
+      "description": "Configuración para retratos realistas de personas haitianas con características auténticas",
+      "created": "2025-09-13T00:18:36.999727",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Haitiano Realista.json"
+    },
+    "Lote Rápido": {
+      "name": "Lote Rápido",
+      "description": "Configuración optimizada para generación rápida de muchas imágenes",
+      "created": "2025-09-13T00:18:37.005253",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Lote Rápido.json"
+    },
+    "Alta Calidad": {
+      "name": "Alta Calidad",
+      "description": "Configuración para máxima calidad con resolución alta y muchos pasos",
+      "created": "2025-09-13T00:18:37.009451",
+      "last_used": "2025-09-13T00:58:17.212886",
+      "usage_count": 2,
+      "file": "Alta Calidad.json"
+    },
+    "Pasaporte Cubano Completo": {
+      "name": "Pasaporte Cubano Completo",
+      "description": "Plantilla completa para pasaportes cubanos con prompts optimizados",
+      "created": "2025-09-13T00:22:28.456260",
+      "last_used": "2025-09-13T00:22:35.745844",
+      "usage_count": 1,
+      "file": "Pasaporte Cubano Completo.json"
+    },
+    "Retrato Artístico Avanzado": {
+      "name": "Retrato Artístico Avanzado",
+      "description": "Plantilla para retratos artísticos con iluminación natural y prompts detallados",
+      "created": "2025-09-13T00:22:28.461454",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Retrato Artístico Avanzado.json"
+    },
+    "Diversidad Venezolana Completa": {
+      "name": "Diversidad Venezolana Completa",
+      "description": "Plantilla completa para diversidad venezolana con prompts específicos",
+      "created": "2025-09-13T00:22:28.462999",
+      "last_used": "2025-09-13T00:59:07.507005",
+      "usage_count": 2,
+      "file": "Diversidad Venezolana Completa.json"
+    },
+    "Test 0003": {
+      "name": "Test 0003",
+      "description": "Plantilla de prueba",
+      "created": "2025-09-13T01:02:43.358756",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Test 0003.json"
+    },
+    "Pasaporte SAIME": {
+      "name": "Pasaporte SAIME",
+      "description": "Configuración específica para pasaportes SAIME con proporciones correctas para evitar estiramiento",
+      "created": "2025-01-12T12:00:00.000000",
+      "last_used": null,
+      "usage_count": 0,
+      "file": "Pasaporte SAIME.json"
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "description": "Índice de plantillas de configuración",
+    "last_updated": "2025-09-13T01:02:43.365752"
+  }
+}

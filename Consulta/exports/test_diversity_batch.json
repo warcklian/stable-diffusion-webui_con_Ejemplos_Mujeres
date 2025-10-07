@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "test_name": "Diversity Batch Test",
+    "description": "Test de lote para verificar diversidad en generación por lotes",
+    "created": "2025-01-15",
+    "batch_size": 50,
+    "test_type": "batch_diversity"
+  },
+  "test_results": {
+    "total_generated": 50,
+    "unique_combinations": 47,
+    "diversity_score": 0.94,
+    "success_rate": 1.0,
+    "average_generation_time": 2.1,
+    "total_time": 105
+  },
+  "batch_analysis": {
+    "consecutive_similarities": 3,
+    "max_similarity_score": 0.15,
+    "average_similarity_score": 0.08,
+    "diversity_distribution": "excellent"
+  },
+  "characteristics_distribution": {
+    "skin_tones": {
+      "very_light": 4,
+      "light": 8,
+      "medium_light": 12,
+      "medium": 15,
+      "medium_dark": 8,
+      "dark": 3
+    },
+    "hair_colors": {
+      "black": 12,
+      "dark_brown": 15,
+      "medium_brown": 12,
+      "light_brown": 6,
+      "blonde": 3,
+      "red": 1,
+      "gray": 1
+    },
+    "eye_colors": {
+      "brown": 32,
+      "dark_brown": 12,
+      "hazel": 4,
+      "green": 2
+    }
+  },
+  "notes": [
+    "Lote con excelente diversidad",
+    "Sistema de exclusión funcionando",
+    "Tiempo de generación optimizado",
+    "Calidad consistente en todo el lote"
+  ]
+}

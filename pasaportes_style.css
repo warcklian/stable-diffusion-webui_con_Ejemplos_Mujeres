@@ -1,0 +1,241 @@
+/* Estilos personalizados para los controles de Pasaportes Venezolanos */
+
+/* Acordeón de pasaportes - Posición fija */
+#pasaportes_accordion {
+    margin-bottom: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    position: relative;
+    z-index: 10;
+    /* Asegurar que no se mueva */
+    flex-shrink: 0;
+    min-height: 200px;
+}
+
+#pasaportes_accordion .gr-accordion-header {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px 6px 0 0;
+}
+
+/* Contenido del acordeón */
+#pasaportes_accordion .gr-accordion-content {
+    background: rgba(44, 62, 80, 0.9);
+    color: white;
+    padding: 15px;
+}
+
+/* Filas de controles */
+.pasaportes-row {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(76, 175, 80, 0.1);
+    border-radius: 6px;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.pasaportes-buttons {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(33, 150, 243, 0.1);
+    border-radius: 6px;
+    border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+/* Controles individuales */
+#pasaporte_nacionalidad {
+    min-width: 200px;
+}
+
+#pasaporte_genero {
+    min-width: 120px;
+}
+
+#pasaporte_edad {
+    min-width: 100px;
+}
+
+/* Botones */
+#aplicar_prompt_pasaporte {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#aplicar_prompt_pasaporte:hover {
+    background: linear-gradient(135deg, #45a049 0%, #4CAF50 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+}
+
+#generar_masivo_pasaporte {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+    #generar_masivo_pasaporte:hover {
+        background: linear-gradient(135deg, #F57C00 0%, #FF9800 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(255, 152, 0, 0.3);
+    }
+
+    #generar_genetico_pasaporte {
+        background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    #generar_genetico_pasaporte:hover {
+        background: linear-gradient(135deg, #C2185B 0%, #E91E63 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
+    }
+
+/* Botones de abrir carpeta */
+#abrir_carpeta_pasaportes,
+#abrir_carpeta_masivos {
+    background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#abrir_carpeta_pasaportes:hover,
+#abrir_carpeta_masivos:hover {
+    background: linear-gradient(135deg, #7B1FA2 0%, #9C27B0 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(156, 39, 176, 0.3);
+}
+
+/* Campo de cantidad */
+#cantidad_masiva_pasaporte {
+    min-width: 80px;
+}
+
+/* Información */
+#info_pasaporte {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(33, 150, 243, 0.2);
+    border-radius: 6px;
+    border-left: 4px solid #2196F3;
+    font-size: 14px;
+    color: white;
+}
+
+/* Mejorar visibilidad de controles */
+#pasaportes_accordion .gr-dropdown,
+#pasaportes_accordion .gr-radio,
+#pasaportes_accordion .gr-slider,
+#pasaportes_accordion .gr-number {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#pasaportes_accordion .gr-dropdown:hover,
+#pasaportes_accordion .gr-radio:hover,
+#pasaportes_accordion .gr-slider:hover,
+#pasaportes_accordion .gr-number:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Labels */
+#pasaportes_accordion label {
+    color: white !important;
+    font-weight: bold;
+}
+
+    /* Panel de controles genéticos */
+    #genetic_controls {
+        margin-top: 15px;
+        border: 2px solid #E91E63;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        color: white;
+    }
+
+    #genetic_controls .gr-accordion-header {
+        background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+        color: white;
+        font-weight: bold;
+        padding: 12px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    #genetic_controls .gr-accordion-content {
+        background: rgba(26, 26, 26, 0.9);
+        color: white;
+        padding: 15px;
+    }
+
+    /* Controles genéticos individuales */
+    #pasaporte_region,
+    #pasaporte_edad_min,
+    #pasaporte_edad_max,
+    #beauty_control,
+    #skin_control,
+    #hair_control,
+    #eye_control {
+        min-width: 120px;
+    }
+
+    /* Estilos para estabilizar el layout */
+    #txt2img_generation {
+        display: flex;
+        flex-direction: column;
+    }
+
+#txt2img_settings {
+    flex-shrink: 0;
+}
+
+/* Asegurar que el acordeón de pasaportes no se mueva */
+#pasaportes_accordion {
+    order: 1;
+    flex-shrink: 0;
+}
+
+/* Estilos para los elementos de la interfaz principal */
+#txt2img_width, #txt2img_height, #txt2img_cfg_scale {
+    flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pasaportes-row {
+        flex-direction: column;
+    }
+    
+    .pasaportes-buttons {
+        flex-direction: column;
+    }
+    
+    #pasaporte_nacionalidad,
+    #pasaporte_genero,
+    #pasaporte_edad {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+}

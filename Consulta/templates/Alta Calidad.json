@@ -1,0 +1,27 @@
+{
+  "name": "Alta Calidad",
+  "description": "Configuración para máxima calidad con resolución alta y muchos pasos",
+  "created": "2025-09-13T00:18:37.009451",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 5,
+      "edad_min": 30,
+      "edad_max": 40,
+      "prompt_type": "realistic_portrait",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 1024,
+      "height": 1024,
+      "steps": 50,
+      "cfg_scale": 9.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    }
+  }
+}

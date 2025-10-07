@@ -1,0 +1,31 @@
+{
+  "name": "Retrato Artístico Avanzado",
+  "description": "Plantilla para retratos artísticos con iluminación natural y prompts detallados",
+  "created": "2025-09-13T00:22:28.461454",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 8,
+      "edad_min": 20,
+      "edad_max": 50,
+      "prompt_type": "natural_lighting_portrait",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 768,
+      "height": 768,
+      "steps": 35,
+      "cfg_scale": 8.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    },
+    "prompts": {
+      "base_prompt": "natural lighting portrait, mujer cubana, soft natural light, realistic skin texture, natural skin pores, authentic expression, common person appearance, not model, realistic imperfections, natural skin tone, realistic hair texture, natural eye color, subtle skin blemishes, natural aging signs, authentic person, natural lighting conditions, cuban ethnic features, natural skin variations, realistic facial features, authentic cuban beauty",
+      "negative_prompt": "perfect skin, flawless, model look, glamour, makeup, jewelry, accessories, smiling, laughing, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, blurry, low quality, distorted, plastic skin, airbrushed, filtered, enhanced, artificial lighting, studio lighting, dramatic lighting, harsh lighting, non-cuban features, exaggerated features"
+    }
+  }
+}

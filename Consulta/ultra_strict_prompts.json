@@ -1,0 +1,14 @@
+{
+  "ultra_strict_passport": {
+    "base_prompt": "passport photo, frontal view, looking directly at camera, neutral expression, professional lighting, white background, high quality, detailed, realistic",
+    "negative_prompt": "3/4 view, side profile, looking away, smiling, laughing, multiple people, double exposure, passport document visible, photo of photo, magazine model, overly perfect, artificial lighting, shadows, background objects, jewelry, glasses, hat, makeup, retouched, airbrushed, glamour, fashion model, beauty contest, professional headshot, studio lighting, dramatic lighting, soft focus, blurry, low quality, distorted, deformed, extra limbs, extra heads, duplicate, watermark, text, signature, date, stamp, border, frame"
+  },
+  "ultra_strict_realistic": {
+    "base_prompt": "realistic portrait, frontal view, natural expression, soft natural lighting, clean background, authentic person, natural skin texture, realistic features, high quality, detailed",
+    "negative_prompt": "3/4 view, side profile, looking away, multiple people, double exposure, magazine model, overly perfect, artificial lighting, shadows, background objects, jewelry, glasses, hat, heavy makeup, retouched, airbrushed, glamour, fashion model, beauty contest, professional headshot, studio lighting, dramatic lighting, soft focus, blurry, low quality, distorted, deformed, extra limbs, extra heads, duplicate, watermark, text, signature, date, stamp, border, frame"
+  },
+  "ultra_strict_natural": {
+    "base_prompt": "natural portrait, frontal view, gentle expression, natural lighting, simple background, authentic person, natural skin, realistic features, high quality, detailed",
+    "negative_prompt": "3/4 view, side profile, looking away, multiple people, double exposure, magazine model, overly perfect, artificial lighting, shadows, background objects, jewelry, glasses, hat, heavy makeup, retouched, airbrushed, glamour, fashion model, beauty contest, professional headshot, studio lighting, dramatic lighting, soft focus, blurry, low quality, distorted, deformed, extra limbs, extra heads, duplicate, watermark, text, signature, date, stamp, border, frame"
+  }
+}

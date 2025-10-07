@@ -1,0 +1,24 @@
+{
+  "name": "Test 0003",
+  "description": "Plantilla de prueba",
+  "created": "2025-09-13T01:02:43.358756",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 5,
+      "edad_min": 25,
+      "edad_max": 35
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 20
+    },
+    "prompts": {
+      "base_prompt": "test prompt",
+      "negative_prompt": "test negative"
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "country_code": "americana",
+    "country_name": "Estados Unidos",
+    "version": "2.0",
+    "description": "Estados Unidos - Sistema multicultural avanzado con múltiples orígenes étnicos",
+    "created": "2025-01-12",
+    "based_on": "Datos demográficos reales del Censo de Estados Unidos y características multiculturales",
+    "multicultural_approach": true
+  },
+  "ethnic_groups": {
+    "european_american": {
+      "name": "Americano de Origen Europeo",
+      "description": "Descendientes de inmigrantes europeos (alemán, irlandés, inglés, italiano, polaco, etc.)",
+      "demographics": {
+        "percentage": 0.57,
+        "subgroups": [
+          {"name": "German-American", "percentage": 0.15, "description": "Descendientes de alemanes"},
+          {"name": "Irish-American", "percentage": 0.12, "description": "Descendientes de irlandeses"},
+          {"name": "English-American", "percentage": 0.10, "description": "Descendientes de ingleses"},
+          {"name": "Italian-American", "percentage": 0.08, "description": "Descendientes de italianos"},
+          {"name": "Polish-American", "percentage": 0.05, "description": "Descendientes de polacos"},
+          {"name": "French-American", "percentage": 0.03, "description": "Descendientes de franceses"},
+          {"name": "Scottish-American", "percentage": 0.02, "description": "Descendientes de escoceses"},
+          {"name": "Dutch-American", "percentage": 0.02, "description": "Descendientes de holandeses"}
+        ]
+      },
+      "skin_tones": {
+        "very_light": 0.4,
+        "light": 0.45,
+        "medium_light": 0.12,
+        "medium": 0.03
+      },
+      "hair_colors": {
+        "blonde": 0.25,
+        "light_brown": 0.35,
+        "medium_brown": 0.25,
+        "dark_brown": 0.12,
+        "black": 0.03
+      },
+      "hair_styles": {
+        "straight": 0.5,
+        "wavy": 0.35,
+        "curly": 0.15
+      },
+      "eye_colors": {
+        "blue": 0.4,
+        "green": 0.2,
+        "hazel": 0.25,
+        "brown": 0.15
+      },
+      "ethnic_characteristics": [
+        "european american features",
+        "white american heritage",
+        "european immigrant ancestry",
+        "caucasian american features",
+        "northern european features",
+        "southern european features",
+        "eastern european features"
+      ],
+      "cranial_structures": [
+        "narrow cranial vault",
+        "prominent forehead",
+        "defined cheekbones",
+        "straight nasal bridge",
+        "angular jawline",
+        "high cranial capacity",
+        "dolichocephalic head shape"
+      ]
+    },
+    "african_american": {
+      "name": "Afroamericano",
+      "description": "Descendientes de africanos esclavizados y inmigrantes africanos recientes",
+      "demographics": {
+        "percentage": 0.121,
+        "subgroups": [
+          {"name": "Descendants of Slaves", "percentage": 0.08, "description": "Descendientes de africanos esclavizados"},
+          {"name": "Recent African Immigrants", "percentage": 0.025, "description": "Inmigrantes africanos recientes"},
+          {"name": "Caribbean-American", "percentage": 0.016, "description": "Descendientes de caribeños"}
+        ]
+      },
+      "skin_tones": {
+        "light": 0.05,
+        "medium_light": 0.15,
+        "medium": 0.3,
+        "medium_dark": 0.35,
+        "dark": 0.15
+      },
+      "hair_colors": {
+        "dark_brown": 0.3,
+        "black": 0.7
+      },
+      "hair_styles": {
+        "straight": 0.1,
+        "wavy": 0.2,
+        "curly": 0.4,
+        "afro": 0.3
+      },
+      "eye_colors": {
+        "brown": 0.85,
+        "dark_brown": 0.15
+      },
+      "ethnic_characteristics": [
+        "african american features",
+        "afro-american heritage",
+        "african diaspora features",
+        "black american features",
+        "african immigrant features",
+        "caribbean american features"
+      ],
+      "cranial_structures": [
+        "broad cranial vault",
+        "rounded forehead",
+        "prominent cheekbones",
+        "wide nasal bridge",
+        "strong jawline",
+        "brachycephalic head shape",
+        "robust cranial features"
+      ]
+    },
+    "hispanic_latino": {
+      "name": "Hispano/Latino",
+      "description": "Personas de origen hispano/latino (mexicano, puertorriqueño, cubano, salvadoreño, etc.)",
+      "demographics": {
+        "percentage": 0.187,
+        "subgroups": [
+          {"name": "Mexican-American", "percentage": 0.115, "description": "Descendientes de mexicanos (61.5% de hispanos)"},
+          {"name": "Puerto Rican", "percentage": 0.018, "description": "Puertorriqueños (9.6% de hispanos)"},
+          {"name": "Cuban-American", "percentage": 0.007, "description": "Descendientes de cubanos (3.8% de hispanos)"},
+          {"name": "Salvadoran-American", "percentage": 0.007, "description": "Descendientes de salvadoreños (3.8% de hispanos)"},
+          {"name": "Dominican-American", "percentage": 0.006, "description": "Descendientes de dominicanos (3.4% de hispanos)"},
+          {"name": "Guatemalan-American", "percentage": 0.004, "description": "Descendientes de guatemaltecos (2.3% de hispanos)"},
+          {"name": "Colombian-American", "percentage": 0.004, "description": "Descendientes de colombianos (2.0% de hispanos)"},
+          {"name": "Honduran-American", "percentage": 0.003, "description": "Descendientes de hondureños (1.8% de hispanos)"},
+          {"name": "Spanish-American", "percentage": 0.003, "description": "Descendientes de españoles (1.6% de hispanos)"},
+          {"name": "Ecuadorian-American", "percentage": 0.002, "description": "Descendientes de ecuatorianos (1.2% de hispanos)"}
+        ]
+      },
+      "skin_tones": {
+        "very_light": 0.1,
+        "light": 0.2,
+        "medium_light": 0.3,
+        "medium": 0.25,
+        "medium_dark": 0.12,
+        "dark": 0.03
+      },
+      "hair_colors": {
+        "blonde": 0.05,
+        "light_brown": 0.15,
+        "medium_brown": 0.4,
+        "dark_brown": 0.35,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.3,
+        "wavy": 0.4,
+        "curly": 0.25,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.05,
+        "green": 0.05,
+        "hazel": 0.15,
+        "brown": 0.7,
+        "dark_brown": 0.05
+      },
+      "ethnic_characteristics": [
+        "hispanic american features",
+        "latino american heritage",
+        "mexican american features",
+        "puerto rican features",
+        "cuban american features",
+        "central american features",
+        "south american features"
+      ],
+      "cranial_structures": [
+        "mesocephalic head shape",
+        "moderate cranial vault",
+        "rounded forehead",
+        "defined cheekbones",
+        "straight to slightly curved nasal bridge",
+        "strong jawline",
+        "balanced cranial proportions"
+      ]
+    },
+    "asian_american": {
+      "name": "Asiático-Americano",
+      "description": "Personas de origen asiático (chino, indio, filipino, vietnamita, coreano, japonés, etc.)",
+      "demographics": {
+        "percentage": 0.059,
+        "subgroups": [
+          {"name": "Chinese-American", "percentage": 0.018, "description": "Descendientes de chinos"},
+          {"name": "Indian-American", "percentage": 0.015, "description": "Descendientes de indios"},
+          {"name": "Filipino-American", "percentage": 0.012, "description": "Descendientes de filipinos"},
+          {"name": "Vietnamese-American", "percentage": 0.006, "description": "Descendientes de vietnamitas"},
+          {"name": "Korean-American", "percentage": 0.004, "description": "Descendientes de coreanos"},
+          {"name": "Japanese-American", "percentage": 0.003, "description": "Descendientes de japoneses"},
+          {"name": "Thai-American", "percentage": 0.001, "description": "Descendientes de tailandeses"}
+        ]
+      },
+      "skin_tones": {
+        "very_light": 0.1,
+        "light": 0.3,
+        "medium_light": 0.4,
+        "medium": 0.15,
+        "medium_dark": 0.05
+      },
+      "hair_colors": {
+        "black": 0.9,
+        "dark_brown": 0.1
+      },
+      "hair_styles": {
+        "straight": 0.95,
+        "wavy": 0.05
+      },
+      "eye_colors": {
+        "brown": 0.95,
+        "dark_brown": 0.05
+      },
+      "ethnic_characteristics": [
+        "asian american features",
+        "east asian features",
+        "south asian features",
+        "southeast asian features",
+        "chinese american features",
+        "indian american features",
+        "filipino american features"
+      ],
+      "cranial_structures": [
+        "brachycephalic head shape",
+        "broad cranial vault",
+        "flat forehead",
+        "high cheekbones",
+        "low nasal bridge",
+        "rounded jawline",
+        "compact cranial features"
+      ]
+    },
+    "native_american": {
+      "name": "Nativo Americano",
+      "description": "Pueblos indígenas de América del Norte",
+      "demographics": {
+        "percentage": 0.007,
+        "subgroups": [
+          {"name": "Cherokee", "percentage": 0.002, "description": "Nación Cherokee"},
+          {"name": "Navajo", "percentage": 0.001, "description": "Nación Navajo"},
+          {"name": "Sioux", "percentage": 0.001, "description": "Nación Sioux"},
+          {"name": "Chippewa", "percentage": 0.001, "description": "Nación Chippewa"},
+          {"name": "Choctaw", "percentage": 0.001, "description": "Nación Choctaw"},
+          {"name": "Apache", "percentage": 0.001, "description": "Nación Apache"}
+        ]
+      },
+      "skin_tones": {
+        "light": 0.1,
+        "medium_light": 0.3,
+        "medium": 0.4,
+        "medium_dark": 0.2
+      },
+      "hair_colors": {
+        "black": 0.8,
+        "dark_brown": 0.2
+      },
+      "hair_styles": {
+        "straight": 0.9,
+        "wavy": 0.1
+      },
+      "eye_colors": {
+        "brown": 0.9,
+        "dark_brown": 0.1
+      },
+      "ethnic_characteristics": [
+        "native american features",
+        "indigenous american heritage",
+        "first nations features",
+        "tribal american features",
+        "indigenous features"
+      ],
+      "cranial_structures": [
+        "dolichocephalic head shape",
+        "narrow cranial vault",
+        "prominent forehead",
+        "high cheekbones",
+        "straight nasal bridge",
+        "strong jawline",
+        "distinctive cranial features"
+      ]
+    },
+    "mixed_race": {
+      "name": "Multirracial",
+      "description": "Personas de múltiples orígenes étnicos (creció 276% desde 2010)",
+      "demographics": {
+        "percentage": 0.041,
+        "subgroups": [
+          {"name": "White-Black", "percentage": 0.015, "description": "Europeo-Americano + Afroamericano"},
+          {"name": "White-Hispanic", "percentage": 0.012, "description": "Europeo-Americano + Hispano/Latino"},
+          {"name": "White-Asian", "percentage": 0.008, "description": "Europeo-Americano + Asiático-Americano"},
+          {"name": "Black-Hispanic", "percentage": 0.003, "description": "Afroamericano + Hispano/Latino"},
+          {"name": "Asian-Hispanic", "percentage": 0.002, "description": "Asiático-Americano + Hispano/Latino"},
+          {"name": "White-Native", "percentage": 0.001, "description": "Europeo-Americano + Nativo Americano"}
+        ]
+      },
+      "skin_tones": {
+        "very_light": 0.1,
+        "light": 0.2,
+        "medium_light": 0.3,
+        "medium": 0.25,
+        "medium_dark": 0.12,
+        "dark": 0.03
+      },
+      "hair_colors": {
+        "blonde": 0.1,
+        "light_brown": 0.2,
+        "medium_brown": 0.3,
+        "dark_brown": 0.3,
+        "black": 0.1
+      },
+      "hair_styles": {
+        "straight": 0.3,
+        "wavy": 0.4,
+        "curly": 0.25,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.15,
+        "green": 0.1,
+        "hazel": 0.2,
+        "brown": 0.5,
+        "dark_brown": 0.05
+      },
+      "ethnic_characteristics": [
+        "mixed race features",
+        "multiracial heritage",
+        "biracial features",
+        "multiethnic features",
+        "diverse ancestry features"
+      ],
+      "cranial_structures": [
+        "intermediate cranial features",
+        "mixed cranial characteristics",
+        "blended head shape",
+        "diverse cranial proportions",
+        "multiethnic cranial features",
+        "balanced mixed features",
+        "unique cranial combination"
+      ]
+    }
+  },
+  "regions": {
+    "northeast": {
+      "name": "Noreste",
+      "description": "Mayor diversidad étnica urbana (Nueva York, Boston, Filadelfia)",
+      "ethnic_distribution": {
+        "european_american": 0.5,
+        "african_american": 0.2,
+        "hispanic_latino": 0.15,
+        "asian_american": 0.1,
+        "mixed_race": 0.05
+      }
+    },
+    "south": {
+      "name": "Sur",
+      "description": "Mayor concentración afroamericana e hispana",
+      "ethnic_distribution": {
+        "european_american": 0.4,
+        "african_american": 0.3,
+        "hispanic_latino": 0.25,
+        "asian_american": 0.03,
+        "mixed_race": 0.02
+      }
+    },
+    "west": {
+      "name": "Oeste",
+      "description": "Mayor diversidad asiática e hispana (California, Washington)",
+      "ethnic_distribution": {
+        "european_american": 0.45,
+        "hispanic_latino": 0.3,
+        "asian_american": 0.15,
+        "african_american": 0.05,
+        "mixed_race": 0.05
+      }
+    },
+    "midwest": {
+      "name": "Medio Oeste",
+      "description": "Mayor concentración europea-americana",
+      "ethnic_distribution": {
+        "european_american": 0.7,
+        "african_american": 0.15,
+        "hispanic_latino": 0.1,
+        "asian_american": 0.03,
+        "mixed_race": 0.02
+      }
+    }
+  }
+}

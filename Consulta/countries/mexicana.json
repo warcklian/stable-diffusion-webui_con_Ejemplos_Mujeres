@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "country_code": "mexicana",
+    "country_name": "México",
+    "version": "1.0",
+    "description": "México - Diversidad étnica y regional basada en datos demográficos reales",
+    "created": "2025-01-17",
+    "based_on": "Datos demográficos reales y características regionales específicas de México"
+  },
+  "regions": {
+    "ciudad-mexico": {
+      "name": "Ciudad de México",
+      "description": "Región capital con diversidad étnica urbana y mestiza",
+      "demographics": {
+        "european_heritage": 0.25,
+        "mestizo": 0.65,
+        "indigenous": 0.08,
+        "african_heritage": 0.02
+      },
+      "skin_tones": {
+        "very_light": 0.08,
+        "light": 0.22,
+        "medium_light": 0.35,
+        "medium": 0.25,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.03,
+        "light_brown": 0.18,
+        "medium_brown": 0.45,
+        "dark_brown": 0.28,
+        "black": 0.06
+      },
+      "hair_styles": {
+        "straight": 0.55,
+        "wavy": 0.30,
+        "curly": 0.12,
+        "afro": 0.03
+      },
+      "eye_colors": {
+        "blue": 0.05,
+        "green": 0.03,
+        "hazel": 0.12,
+        "brown": 0.70,
+        "dark_brown": 0.10
+      },
+      "facial_structures": {
+        "oval": 0.35,
+        "round": 0.30,
+        "square": 0.20,
+        "heart": 0.15
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "mexican mestizo features",
+        "mixed european and indigenous ancestry",
+        "central mexican characteristics",
+        "mexican facial structure",
+        "latin american mixed heritage",
+        "mexican urban features",
+        "central plateau characteristics",
+        "mexican mestizo characteristics"
+      ]
+    },
+    "guadalajara": {
+      "name": "Guadalajara",
+      "description": "Región occidental con características mestizas y criollas",
+      "demographics": {
+        "european_heritage": 0.30,
+        "mestizo": 0.60,
+        "indigenous": 0.08,
+        "african_heritage": 0.02
+      },
+      "skin_tones": {
+        "very_light": 0.10,
+        "light": 0.25,
+        "medium_light": 0.32,
+        "medium": 0.23,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.04,
+        "light_brown": 0.20,
+        "medium_brown": 0.42,
+        "dark_brown": 0.28,
+        "black": 0.06
+      },
+      "hair_styles": {
+        "straight": 0.52,
+        "wavy": 0.32,
+        "curly": 0.13,
+        "afro": 0.03
+      },
+      "eye_colors": {
+        "blue": 0.06,
+        "green": 0.04,
+        "hazel": 0.14,
+        "brown": 0.66,
+        "dark_brown": 0.10
+      },
+      "facial_structures": {
+        "oval": 0.38,
+        "round": 0.28,
+        "square": 0.22,
+        "heart": 0.12
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "mexican mestizo features",
+        "mixed european and indigenous ancestry",
+        "western mexican characteristics",
+        "jalisco region features",
+        "mexican facial structure",
+        "latin american mixed heritage",
+        "mexican urban features",
+        "mexican mestizo characteristics"
+      ]
+    },
+    "monterrey": {
+      "name": "Monterrey",
+      "description": "Región norte con características mestizas y criollas",
+      "demographics": {
+        "european_heritage": 0.35,
+        "mestizo": 0.55,
+        "indigenous": 0.08,
+        "african_heritage": 0.02
+      },
+      "skin_tones": {
+        "very_light": 0.12,
+        "light": 0.28,
+        "medium_light": 0.30,
+        "medium": 0.20,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.05,
+        "light_brown": 0.22,
+        "medium_brown": 0.40,
+        "dark_brown": 0.27,
+        "black": 0.06
+      },
+      "hair_styles": {
+        "straight": 0.50,
+        "wavy": 0.34,
+        "curly": 0.13,
+        "afro": 0.03
+      },
+      "eye_colors": {
+        "blue": 0.08,
+        "green": 0.05,
+        "hazel": 0.16,
+        "brown": 0.61,
+        "dark_brown": 0.10
+      },
+      "facial_structures": {
+        "oval": 0.40,
+        "round": 0.26,
+        "square": 0.22,
+        "heart": 0.12
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "mexican mestizo features",
+        "mixed european and indigenous ancestry",
+        "northern mexican characteristics",
+        "nuevo leon region features",
+        "mexican facial structure",
+        "latin american mixed heritage",
+        "mexican urban features",
+        "mexican mestizo characteristics"
+      ]
+    },
+    "merida": {
+      "name": "Mérida",
+      "description": "Región sureste con características mayas y mestizas",
+      "demographics": {
+        "european_heritage": 0.20,
+        "mestizo": 0.70,
+        "indigenous": 0.08,
+        "african_heritage": 0.02
+      },
+      "skin_tones": {
+        "very_light": 0.05,
+        "light": 0.18,
+        "medium_light": 0.38,
+        "medium": 0.28,
+        "medium_dark": 0.09,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.02,
+        "light_brown": 0.15,
+        "medium_brown": 0.48,
+        "dark_brown": 0.30,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.58,
+        "wavy": 0.28,
+        "curly": 0.11,
+        "afro": 0.03
+      },
+      "eye_colors": {
+        "blue": 0.03,
+        "green": 0.02,
+        "hazel": 0.10,
+        "brown": 0.75,
+        "dark_brown": 0.10
+      },
+      "facial_structures": {
+        "oval": 0.32,
+        "round": 0.32,
+        "square": 0.22,
+        "heart": 0.14
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "mexican mestizo features",
+        "mixed european and indigenous ancestry",
+        "southeastern mexican characteristics",
+        "yucatan region features",
+        "mexican facial structure",
+        "latin american mixed heritage",
+        "mexican urban features",
+        "mexican mestizo characteristics"
+      ]
+    },
+    "oaxaca": {
+      "name": "Oaxaca",
+      "description": "Región sur con características indígenas y mestizas",
+      "demographics": {
+        "european_heritage": 0.15,
+        "mestizo": 0.75,
+        "indigenous": 0.08,
+        "african_heritage": 0.02
+      },
+      "skin_tones": {
+        "very_light": 0.03,
+        "light": 0.15,
+        "medium_light": 0.40,
+        "medium": 0.30,
+        "medium_dark": 0.10,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.01,
+        "light_brown": 0.12,
+        "medium_brown": 0.50,
+        "dark_brown": 0.32,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.60,
+        "wavy": 0.26,
+        "curly": 0.11,
+        "afro": 0.03
+      },
+      "eye_colors": {
+        "blue": 0.02,
+        "green": 0.01,
+        "hazel": 0.08,
+        "brown": 0.79,
+        "dark_brown": 0.10
+      },
+      "facial_structures": {
+        "oval": 0.30,
+        "round": 0.35,
+        "square": 0.20,
+        "heart": 0.15
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "mexican mestizo features",
+        "mixed european and indigenous ancestry",
+        "southern mexican characteristics",
+        "oaxaca region features",
+        "mexican facial structure",
+        "latin american mixed heritage",
+        "mexican urban features",
+        "mexican mestizo characteristics"
+      ]
+    }
+  }
+}

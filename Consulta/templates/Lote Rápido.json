@@ -1,0 +1,27 @@
+{
+  "name": "Lote Rápido",
+  "description": "Configuración optimizada para generación rápida de muchas imágenes",
+  "created": "2025-09-13T00:18:37.005253",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 50,
+      "edad_min": 25,
+      "edad_max": 45,
+      "prompt_type": "passport_photography",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 20,
+      "cfg_scale": 7.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 4,
+      "n_iter": 1
+    }
+  }
+}

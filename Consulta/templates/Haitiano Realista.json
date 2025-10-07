@@ -1,0 +1,27 @@
+{
+  "name": "Haitiano Realista",
+  "description": "Configuración para retratos realistas de personas haitianas con características auténticas",
+  "created": "2025-09-13T00:18:36.999727",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "haitiana",
+      "cantidad": 18,
+      "edad_min": 22,
+      "edad_max": 48,
+      "prompt_type": "haitian_diversity",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 640,
+      "height": 640,
+      "steps": 32,
+      "cfg_scale": 8.5,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Pasaporte Cubano Completo",
+  "description": "Plantilla completa para pasaportes cubanos con prompts optimizados",
+  "created": "2025-09-13T00:22:28.456260",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 15,
+      "edad_min": 25,
+      "edad_max": 45,
+      "prompt_type": "passport_photography",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    },
+    "prompts": {
+      "base_prompt": "professional passport photo, mujer cubana, front view, official document photo, serious expression, neutral face, uniform lighting, white or neutral background, high resolution, facial detail, realistic photography, detailed skin texture, natural imperfections, authentic person, ID photo style, cuban ethnic features, natural skin tone variations, realistic hair texture, authentic cuban appearance",
+      "negative_prompt": "blurry, low quality, distorted, ugly, deformed, bad anatomy, extra limbs, poorly drawn face, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, perfect skin, flawless, model look, magazine cover, glamour, makeup, jewelry, accessories, smiling, laughing, casual clothes, colorful background, artistic, stylized, multiple people, group photo, side view, profile view, non-cuban features"
+    }
+  }
+}

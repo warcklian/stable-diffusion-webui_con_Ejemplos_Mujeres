@@ -1,0 +1,168 @@
+{
+  "archivos_verificados": [
+    {
+      "archivo": "gui_config.json",
+      "resolucion_corregida": true,
+      "prompts_anti_estiramiento": true,
+      "estandares_saime": true
+    },
+    {
+      "archivo": "templates_index.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Diversidad Venezolana.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Test 0003.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Pasaporte Profesional.json",
+      "resolucion_corregida": true,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Documento Oficial.json",
+      "resolucion_corregida": true,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Lote Rápido.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Alta Calidad.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Pasaporte Cubano Completo.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Pasaporte Cubano.json",
+      "resolucion_corregida": true,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Haitiano Realista.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Pasaporte SAIME Corregido.json",
+      "resolucion_corregida": true,
+      "prompts_anti_estiramiento": true,
+      "estandares_saime": true
+    },
+    {
+      "archivo": "Diversidad Venezolana Completa.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Retrato Artístico.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Retrato Realista.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Diversidad Étnica.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    },
+    {
+      "archivo": "Retrato Artístico Avanzado.json",
+      "resolucion_corregida": false,
+      "prompts_anti_estiramiento": false,
+      "estandares_saime": false
+    }
+  ],
+  "correcciones_aplicadas": [
+    "✅ gui_config.json: Resolución corregida 512x640 (4:5)",
+    "✅ gui_config.json: Prompts anti-estiramiento encontrados (6/6)",
+    "✅ gui_config.json: Referencias SAIME en prompt",
+    "✅ Pasaporte Profesional.json: Resolución corregida 512x640 (4:5)",
+    "✅ Documento Oficial.json: Resolución corregida 512x640 (4:5)",
+    "✅ Pasaporte Cubano.json: Resolución corregida 512x640 (4:5)",
+    "✅ Pasaporte SAIME Corregido.json: Resolución corregida 512x640 (4:5)",
+    "✅ Pasaporte SAIME Corregido.json: Prompts anti-estiramiento encontrados (6/6)",
+    "✅ Pasaporte SAIME Corregido.json: Estándares SAIME implementados"
+  ],
+  "problemas_encontrados": [
+    "❌ templates_index.json: Resolución cuadrada 0x0",
+    "⚠️ templates_index.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ templates_index.json: No se encontraron estándares SAIME",
+    "❌ Diversidad Venezolana.json: Resolución cuadrada 512x512",
+    "⚠️ Diversidad Venezolana.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Diversidad Venezolana.json: No se encontraron estándares SAIME",
+    "❌ Test 0003.json: Resolución cuadrada 512x512",
+    "⚠️ Test 0003.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Test 0003.json: No se encontraron estándares SAIME",
+    "⚠️ Pasaporte Profesional.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Pasaporte Profesional.json: No se encontraron estándares SAIME",
+    "⚠️ Documento Oficial.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Documento Oficial.json: No se encontraron estándares SAIME",
+    "❌ Lote Rápido.json: Resolución cuadrada 512x512",
+    "⚠️ Lote Rápido.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Lote Rápido.json: No se encontraron estándares SAIME",
+    "❌ Alta Calidad.json: Resolución cuadrada 1024x1024",
+    "⚠️ Alta Calidad.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Alta Calidad.json: No se encontraron estándares SAIME",
+    "❌ Pasaporte Cubano Completo.json: Resolución cuadrada 512x512",
+    "⚠️ Pasaporte Cubano Completo.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Pasaporte Cubano Completo.json: No se encontraron estándares SAIME",
+    "⚠️ Pasaporte Cubano.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Pasaporte Cubano.json: No se encontraron estándares SAIME",
+    "❌ Haitiano Realista.json: Resolución cuadrada 640x640",
+    "⚠️ Haitiano Realista.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Haitiano Realista.json: No se encontraron estándares SAIME",
+    "❌ Diversidad Venezolana Completa.json: Resolución cuadrada 512x512",
+    "⚠️ Diversidad Venezolana Completa.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Diversidad Venezolana Completa.json: No se encontraron estándares SAIME",
+    "❌ Retrato Artístico.json: Resolución cuadrada 768x768",
+    "⚠️ Retrato Artístico.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Retrato Artístico.json: No se encontraron estándares SAIME",
+    "❌ Retrato Realista.json: Resolución cuadrada 768x768",
+    "⚠️ Retrato Realista.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Retrato Realista.json: No se encontraron estándares SAIME",
+    "❌ Diversidad Étnica.json: Resolución cuadrada 512x512",
+    "⚠️ Diversidad Étnica.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Diversidad Étnica.json: No se encontraron estándares SAIME",
+    "❌ Retrato Artístico Avanzado.json: Resolución cuadrada 768x768",
+    "⚠️ Retrato Artístico Avanzado.json: Faltan instrucciones anti-estiramiento (0/6)",
+    "⚠️ Retrato Artístico Avanzado.json: No se encontraron estándares SAIME"
+  ],
+  "resumen": {
+    "total_archivos": 17,
+    "archivos_corregidos": 5,
+    "porcentaje_corregido": 29.411764705882355,
+    "correcciones_aplicadas": 9,
+    "problemas_encontrados": 42
+  }
+}

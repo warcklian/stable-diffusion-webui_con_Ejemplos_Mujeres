@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "country_code": "dominicana",
+    "country_name": "República Dominicana",
+    "version": "1.0",
+    "description": "República Dominicana - Diversidad regional basada en datos demográficos reales",
+    "created": "2025-01-17",
+    "based_on": "Datos demográficos reales y características regionales específicas de República Dominicana"
+  },
+  "regions": {
+    "santo-domingo": {
+      "name": "Santo Domingo",
+      "description": "Región capital con diversidad urbana y características afro-hispánicas",
+      "demographics": {
+        "european_heritage": 0.25,
+        "mestizo": 0.55,
+        "indigenous": 0.05,
+        "african_heritage": 0.15
+      },
+      "skin_tones": {
+        "very_light": 0.08,
+        "light": 0.18,
+        "medium_light": 0.32,
+        "medium": 0.28,
+        "medium_dark": 0.12,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.05,
+        "light_brown": 0.2,
+        "medium_brown": 0.45,
+        "dark_brown": 0.25,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.35,
+        "wavy": 0.4,
+        "curly": 0.2,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.08,
+        "green": 0.05,
+        "hazel": 0.12,
+        "brown": 0.6,
+        "dark_brown": 0.15
+      },
+      "facial_structures": {
+        "oval": 0.4,
+        "round": 0.28,
+        "square": 0.22,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "dominican mestizo features",
+        "mixed european and african ancestry",
+        "caribbean latino features",
+        "dominican facial structure",
+        "latin american mixed heritage",
+        "caribbean coastal features",
+        "dominican urban characteristics",
+        "south american mestizo characteristics"
+      ]
+    },
+    "santiago": {
+      "name": "Santiago",
+      "description": "Región norte con características cibaeñas y agrícolas",
+      "demographics": {
+        "european_heritage": 0.3,
+        "mestizo": 0.5,
+        "indigenous": 0.05,
+        "african_heritage": 0.15
+      },
+      "skin_tones": {
+        "very_light": 0.1,
+        "light": 0.2,
+        "medium_light": 0.3,
+        "medium": 0.25,
+        "medium_dark": 0.13,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.06,
+        "light_brown": 0.22,
+        "medium_brown": 0.42,
+        "dark_brown": 0.25,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.38,
+        "wavy": 0.38,
+        "curly": 0.19,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.1,
+        "green": 0.06,
+        "hazel": 0.14,
+        "brown": 0.55,
+        "dark_brown": 0.15
+      },
+      "facial_structures": {
+        "oval": 0.38,
+        "round": 0.3,
+        "square": 0.22,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "dominican mestizo features",
+        "mixed european and african ancestry",
+        "caribbean latino features",
+        "dominican facial structure",
+        "latin american mixed heritage",
+        "caribbean coastal features",
+        "dominican urban characteristics",
+        "south american mestizo characteristics"
+      ]
+    },
+    "la-vega": {
+      "name": "La Vega",
+      "description": "Región centro con características agrícolas y montañosas",
+      "demographics": {
+        "european_heritage": 0.28,
+        "mestizo": 0.52,
+        "indigenous": 0.05,
+        "african_heritage": 0.15
+      },
+      "skin_tones": {
+        "very_light": 0.08,
+        "light": 0.18,
+        "medium_light": 0.32,
+        "medium": 0.28,
+        "medium_dark": 0.12,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.05,
+        "light_brown": 0.2,
+        "medium_brown": 0.45,
+        "dark_brown": 0.25,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.36,
+        "wavy": 0.4,
+        "curly": 0.19,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.08,
+        "green": 0.05,
+        "hazel": 0.12,
+        "brown": 0.6,
+        "dark_brown": 0.15
+      },
+      "facial_structures": {
+        "oval": 0.38,
+        "round": 0.3,
+        "square": 0.22,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "dominican mestizo features",
+        "mixed european and african ancestry",
+        "caribbean latino features",
+        "dominican facial structure",
+        "latin american mixed heritage",
+        "caribbean coastal features",
+        "dominican urban characteristics",
+        "south american mestizo characteristics"
+      ]
+    }
+  }
+}

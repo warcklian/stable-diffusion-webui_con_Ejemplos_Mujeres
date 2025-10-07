@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "country_code": "brasileña",
+    "country_name": "Brasil",
+    "version": "1.0",
+    "description": "Diversidad étnica extrema con múltiples orígenes",
+    "created": "2025-01-12"
+  },
+  "regions": {
+    "sudeste": {
+      "name": "Sudeste de Brasil",
+      "description": "Región sudeste con mayor diversidad étnica (São Paulo, Río de Janeiro)",
+      "demographics": {
+        "european_heritage": 0.4,
+        "african_heritage": 0.3,
+        "mestizo": 0.25,
+        "indigenous": 0.05
+      },
+      "skin_tones": {
+        "very_light": 0.15,
+        "light": 0.25,
+        "medium_light": 0.3,
+        "medium": 0.2,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.1,
+        "light_brown": 0.2,
+        "medium_brown": 0.35,
+        "dark_brown": 0.25,
+        "black": 0.1
+      },
+      "hair_styles": {
+        "straight": 0.3,
+        "wavy": 0.4,
+        "curly": 0.25,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.15,
+        "green": 0.08,
+        "hazel": 0.12,
+        "brown": 0.55,
+        "dark_brown": 0.1
+      },
+      "facial_structures": {
+        "oval": 0.35,
+        "round": 0.3,
+        "square": 0.2,
+        "heart_shaped": 0.15
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "southeastern brazilian features",
+        "são paulo heritage",
+        "rio de janeiro features",
+        "southeastern mixed ancestry",
+        "urban brazilian features",
+        "coastal brazilian features"
+      ]
+    },
+    "nordeste": {
+      "name": "Nordeste de Brasil",
+      "description": "Región nordeste con mayor influencia africana e indígena",
+      "demographics": {
+        "european_heritage": 0.25,
+        "african_heritage": 0.45,
+        "mestizo": 0.25,
+        "indigenous": 0.05
+      },
+      "skin_tones": {
+        "very_light": 0.05,
+        "light": 0.15,
+        "medium_light": 0.25,
+        "medium": 0.3,
+        "medium_dark": 0.2,
+        "dark": 0.05
+      },
+      "hair_colors": {
+        "blonde": 0.03,
+        "light_brown": 0.12,
+        "medium_brown": 0.3,
+        "dark_brown": 0.4,
+        "black": 0.15
+      },
+      "hair_styles": {
+        "straight": 0.2,
+        "wavy": 0.35,
+        "curly": 0.35,
+        "afro": 0.1
+      },
+      "eye_colors": {
+        "blue": 0.05,
+        "green": 0.03,
+        "hazel": 0.07,
+        "brown": 0.7,
+        "dark_brown": 0.15
+      },
+      "facial_structures": {
+        "oval": 0.3,
+        "round": 0.35,
+        "square": 0.2,
+        "heart_shaped": 0.15
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "northeastern brazilian features",
+        "bahia heritage",
+        "pernambuco features",
+        "northeastern mixed ancestry",
+        "afro-brazilian features",
+        "indigenous brazilian features"
+      ]
+    }
+  }
+}

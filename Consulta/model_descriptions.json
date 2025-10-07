@@ -1,0 +1,85 @@
+{
+  "model_descriptions": {
+    "RealisticVisionV60B1_v51HyperVAE": {
+      "name": "Realistic Vision V6.0.1",
+      "description": "Modelo especializado en fotografía realista y retratos humanos de alta calidad. Entrenado específicamente para generar imágenes que parecen fotografías reales, con excelente manejo de texturas de piel, iluminación natural y detalles faciales. Ideal para proyectos que requieren realismo fotográfico.",
+      "best_for": ["Fotografías de identificación", "Retratos profesionales", "Documentos oficiales", "Fotografía realista", "Diversidad étnica", "Imágenes corporativas"],
+      "style": "Fotográfico/Realista",
+      "quality": "Muy Alta",
+      "strengths": ["Texturas de piel realistas", "Iluminación natural", "Detalles faciales precisos", "Diversidad étnica"],
+      "recommended_settings": {
+        "cfg_scale": "7.5-8.5",
+        "steps": "25-35",
+        "sampler": "DPM++ 2M Karras",
+        "width": "512-768",
+        "height": "512-768"
+      }
+    },
+    "dreamshaper_8": {
+      "name": "DreamShaper 8",
+      "description": "Modelo versátil y equilibrado que combina realismo con creatividad artística. Capaz de generar desde fotografías realistas hasta ilustraciones estilizadas. Excelente para proyectos que requieren flexibilidad y variedad de estilos.",
+      "best_for": ["Arte digital", "Ilustraciones", "Retratos estilizados", "Concept art", "Diseño gráfico", "Contenido creativo"],
+      "style": "Versátil/Artístico",
+      "quality": "Alta",
+      "strengths": ["Flexibilidad de estilos", "Creatividad artística", "Buena comprensión de prompts", "Versatilidad"],
+      "recommended_settings": {
+        "cfg_scale": "7.0-8.0",
+        "steps": "20-30",
+        "sampler": "DPM++ 2M Karras",
+        "width": "512-1024",
+        "height": "512-1024"
+      }
+    },
+    "juggernautXL": {
+      "name": "Juggernaut XL",
+      "description": "Modelo de alta resolución basado en Stable Diffusion XL, optimizado para generar imágenes de gran calidad y detalle. Especializado en trabajos profesionales que requieren máxima resolución y precisión.",
+      "best_for": ["Alta resolución", "Trabajos profesionales", "Impresión", "Posters", "Arte comercial", "Contenido premium"],
+      "style": "Profesional/Detallado",
+      "quality": "Muy Alta",
+      "strengths": ["Alta resolución nativa", "Detalles excepcionales", "Calidad profesional", "Estabilidad"],
+      "recommended_settings": {
+        "cfg_scale": "7.0-8.0",
+        "steps": "30-40",
+        "sampler": "DPM++ 2M Karras",
+        "width": "1024-1536",
+        "height": "1024-1536"
+      }
+    },
+    "sd_xl_base_1.0": {
+      "name": "Stable Diffusion XL Base 1.0",
+      "description": "Modelo base oficial de Stable Diffusion XL, diseñado como punto de partida versátil y equilibrado. Ofrece un buen balance entre calidad y velocidad, ideal para experimentación y uso general.",
+      "best_for": ["Uso general", "Experimentación", "Aprendizaje", "Prototipado rápido", "Diversos estilos", "Desarrollo"],
+      "style": "Versátil/Base",
+      "quality": "Buena",
+      "strengths": ["Estabilidad", "Versatilidad", "Velocidad", "Compatibilidad"],
+      "recommended_settings": {
+        "cfg_scale": "6.0-7.5",
+        "steps": "20-30",
+        "sampler": "DPM++ 2M Karras",
+        "width": "1024",
+        "height": "1024"
+      }
+    },
+    "protogenx34": {
+      "name": "Protogen X3.4",
+      "description": "Modelo especializado en la generación de personas y retratos humanos con enfoque en diversidad étnica y realismo facial. Entrenado específicamente para crear rostros diversos y auténticos.",
+      "best_for": ["Retratos humanos", "Diversidad étnica", "Fotografías de identificación", "Rostros realistas", "Documentación", "Estudios demográficos"],
+      "style": "Realista/Humano",
+      "quality": "Alta",
+      "strengths": ["Diversidad étnica", "Realismo facial", "Variedad de edades", "Expresiones naturales"],
+      "recommended_settings": {
+        "cfg_scale": "7.0-8.0",
+        "steps": "25-35",
+        "sampler": "DPM++ 2M Karras",
+        "width": "512-768",
+        "height": "512-768"
+      }
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "description": "Descripciones y configuraciones recomendadas para modelos de Stable Diffusion",
+    "last_updated": "2025-01-12",
+    "note": "Estas descripciones se actualizan según los modelos disponibles en el sistema"
+  }
+}

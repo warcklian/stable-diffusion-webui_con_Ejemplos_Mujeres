@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "country_code": "cubana",
+    "country_name": "Cuba",
+    "version": "1.0",
+    "description": "Cuba - Diversidad caribeña única con influencia española y africana",
+    "created": "2025-01-14",
+    "based_on": "Datos demográficos reales y características regionales específicas de Cuba"
+  },
+  "regions": {
+    "occidental": {
+      "name": "Cuba Occidental",
+      "description": "Región occidental con mayor influencia española y europea (La Habana, Pinar del Río, Matanzas)",
+      "demographics": {
+        "european_heritage": 0.45,
+        "mestizo": 0.35,
+        "african_heritage": 0.15,
+        "indigenous": 0.05
+      },
+      "skin_tones": {
+        "very_light": 0.15,
+        "light": 0.35,
+        "medium_light": 0.25,
+        "medium": 0.15,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.08,
+        "light_brown": 0.25,
+        "medium_brown": 0.35,
+        "dark_brown": 0.25,
+        "black": 0.07
+      },
+      "hair_styles": {
+        "straight": 0.45,
+        "wavy": 0.30,
+        "curly": 0.20,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.12,
+        "green": 0.08,
+        "hazel": 0.15,
+        "brown": 0.55,
+        "dark_brown": 0.10
+      },
+      "facial_structures": {
+        "oval": 0.25,
+        "round": 0.20,
+        "square": 0.18,
+        "heart_shaped": 0.15,
+        "diamond": 0.08,
+        "oblong": 0.06,
+        "triangular": 0.05,
+        "pear_shaped": 0.03
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "facial_features": {
+        "high_cheekbones": 0.18,
+        "defined_jawline": 0.15,
+        "soft_jawline": 0.20,
+        "prominent_nose": 0.12,
+        "small_nose": 0.10,
+        "wide_nose": 0.08,
+        "narrow_nose": 0.12,
+        "button_nose": 0.08,
+        "aquiline_nose": 0.06,
+        "full_lips": 0.18,
+        "thin_lips": 0.12,
+        "wide_lips": 0.10,
+        "small_mouth": 0.08,
+        "large_eyes": 0.15,
+        "small_eyes": 0.10,
+        "almond_eyes": 0.12,
+        "round_eyes": 0.10,
+        "deep_set_eyes": 0.08,
+        "close_set_eyes": 0.06,
+        "strong_jawline": 0.10,
+        "delicate_jawline": 0.12,
+        "broad_nose": 0.05,
+        "straight_nose": 0.10,
+        "thick_eyebrows": 0.15,
+        "thin_eyebrows": 0.10,
+        "arched_eyebrows": 0.12,
+        "straight_eyebrows": 0.08
+      },
+      "ethnic_characteristics": [
+        "cuban mestizo features",
+        "mixed european and african ancestry",
+        "caribbean latino features",
+        "cuban facial structure",
+        "latin american mixed heritage",
+        "caribbean coastal features",
+        "cuban urban characteristics",
+        "south american mestizo characteristics"
+      ]
+    },
+    "oriental": {
+      "name": "Cuba Oriental",
+      "description": "Región oriental con mayor influencia africana y caribeña (Santiago de Cuba, Guantánamo, Holguín)",
+      "demographics": {
+        "european_heritage": 0.25,
+        "mestizo": 0.40,
+        "african_heritage": 0.30,
+        "indigenous": 0.05
+      },
+      "skin_tones": {
+        "very_light": 0.05,
+        "light": 0.15,
+        "medium_light": 0.25,
+        "medium": 0.30,
+        "medium_dark": 0.20,
+        "dark": 0.05
+      },
+      "hair_colors": {
+        "blonde": 0.02,
+        "light_brown": 0.12,
+        "medium_brown": 0.30,
+        "dark_brown": 0.40,
+        "black": 0.16
+      },
+      "hair_styles": {
+        "straight": 0.25,
+        "wavy": 0.30,
+        "curly": 0.30,
+        "afro": 0.15
+      },
+      "eye_colors": {
+        "blue": 0.03,
+        "green": 0.02,
+        "hazel": 0.08,
+        "brown": 0.70,
+        "dark_brown": 0.17
+      },
+      "facial_structures": {
+        "oval": 0.20,
+        "round": 0.25,
+        "square": 0.20,
+        "heart_shaped": 0.12,
+        "diamond": 0.08,
+        "oblong": 0.06,
+        "triangular": 0.05,
+        "pear_shaped": 0.04
+      },
+      "height_tendency": "average",
+      "body_type": "athletic",
+      "facial_features": {
+        "high_cheekbones": 0.22,
+        "defined_jawline": 0.18,
+        "soft_jawline": 0.18,
+        "prominent_nose": 0.15,
+        "small_nose": 0.08,
+        "wide_nose": 0.12,
+        "narrow_nose": 0.10,
+        "button_nose": 0.06,
+        "aquiline_nose": 0.08,
+        "full_lips": 0.22,
+        "thin_lips": 0.10,
+        "wide_lips": 0.12,
+        "small_mouth": 0.06,
+        "large_eyes": 0.18,
+        "small_eyes": 0.08,
+        "almond_eyes": 0.15,
+        "round_eyes": 0.12,
+        "deep_set_eyes": 0.10,
+        "close_set_eyes": 0.05,
+        "strong_jawline": 0.12,
+        "delicate_jawline": 0.10,
+        "broad_nose": 0.08,
+        "straight_nose": 0.08,
+        "thick_eyebrows": 0.18,
+        "thin_eyebrows": 0.08,
+        "arched_eyebrows": 0.14,
+        "straight_eyebrows": 0.06
+      },
+      "ethnic_characteristics": [
+        "cuban mestizo features",
+        "mixed european and african ancestry",
+        "caribbean latino features",
+        "cuban facial structure",
+        "latin american mixed heritage",
+        "caribbean coastal features",
+        "cuban urban characteristics",
+        "south american mestizo characteristics"
+      ]
+    }
+  }
+}

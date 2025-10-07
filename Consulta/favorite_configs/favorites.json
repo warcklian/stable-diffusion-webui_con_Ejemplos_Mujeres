@@ -1,0 +1,144 @@
+{
+  "favorites": [
+    {
+      "id": "fav_20250913_201453",
+      "name": "Cubana Perfecta",
+      "description": "Configuración que produce fotos tipo pasaporte perfectas de mujeres cubanas con características realistas",
+      "created": "2025-09-13T20:14:53.837027",
+      "prompt_data": {
+        "gender": "mujer",
+        "nationality": "cubana",
+        "age_min": 18,
+        "age_max": 25,
+        "prompt_type": "passport_photography",
+        "base_prompt": "official passport photo, mujer cubana, 18 to 25 years old, front facing camera, direct eye contact, neutral expression, serious face, white background, uniform lighting, high resolution, clear facial features, realistic photography, caramel skin tone, dark brown curly hair, brown eyes, oval face, high cheekbones, straight nose, full lips, cuban mestizo features, strong bone structure, subtle facial asymmetry, natural skin texture, authentic individual features, natural skin texture, authentic person, ID photo style, government document photo, official photo standards, passport requirements, clear view of face, centered composition, professional lighting, no shadows, clean background, full head visible, complete face, proper framing, passport photo frame, white border, official document style",
+        "negative_prompt": "side view, profile view, three quarter view, angled face, tilted head, looking away, smiling, laughing, casual expression, artistic, stylized, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, perfect skin, flawless, model look, glamour, makeup, jewelry, accessories, colorful background, multiple people, group photo, casual clothes, informal setting, dramatic lighting, shadows, reflections, glasses, hats, headwear, blurry, low quality, distorted, ugly, deformed, bad anatomy, extra limbs, poorly drawn face, double exposure, multiple faces, composite image, bald, shaved head, no hair, cropped head, cut off head, partial face, incomplete face, missing parts, head cut off, face cut off, cropped face, incomplete head, missing head, headless, face missing, head missing, cropped image, cut off image, partial image, incomplete image"
+      },
+      "generation_params": {
+        "width": 512,
+        "height": 512,
+        "steps": 25,
+        "cfg_scale": 7.5,
+        "sampler_name": "DPM++ 2M Karras",
+        "batch_size": 1,
+        "n_iter": 1
+      },
+      "model_name": "realisticVisionV51",
+      "tags": [
+        "cubana",
+        "pasaporte",
+        "perfecta",
+        "realista"
+      ],
+      "image_path": null,
+      "usage_count": 1,
+      "last_used": "2025-09-13T20:14:53.848403"
+    },
+    {
+      "id": "fav_20250913_201453",
+      "name": "Venezolana Joven",
+      "description": "Fotos tipo pasaporte de mujeres venezolanas jóvenes con características andinas",
+      "created": "2025-09-13T20:14:53.841778",
+      "prompt_data": {
+        "gender": "mujer",
+        "nationality": "venezolana",
+        "age_min": 18,
+        "age_max": 22,
+        "prompt_type": "passport_photography",
+        "base_prompt": "official passport photo, mujer venezolana, 18-22 years old, front facing camera, direct eye contact, neutral expression, serious face, white background, uniform lighting, high resolution, clear facial features, realistic photography, natural skin texture, authentic person, ID photo style, government document photo, official photo standards, passport requirements, clear view of face, centered composition, professional lighting, no shadows, clean background, full head visible, complete face, proper framing, passport photo frame, white border, official document style",
+        "negative_prompt": "side view, profile view, three quarter view, angled face, tilted head, looking away, smiling, laughing, casual expression, artistic, stylized, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, perfect skin, flawless, model look, glamour, makeup, jewelry, accessories, colorful background, multiple people, group photo, casual clothes, informal setting, dramatic lighting, shadows, reflections, glasses, hats, headwear, blurry, low quality, distorted, ugly, deformed, bad anatomy, extra limbs, poorly drawn face, double exposure, multiple faces, composite image, bald, shaved head, no hair, cropped head, cut off head, partial face, incomplete face, missing parts, head cut off, face cut off, cropped face, incomplete head, missing head, headless, face missing, head missing, cropped image, cut off image, partial image, incomplete image"
+      },
+      "generation_params": {
+        "width": 512,
+        "height": 512,
+        "steps": 25,
+        "cfg_scale": 7.5,
+        "sampler_name": "DPM++ 2M Karras",
+        "batch_size": 1,
+        "n_iter": 1
+      },
+      "model_name": "realisticVisionV51",
+      "tags": [
+        "venezolana",
+        "joven",
+        "pasaporte",
+        "andina"
+      ],
+      "image_path": null,
+      "usage_count": 0,
+      "last_used": null
+    },
+    {
+      "id": "fav_20250913_201453",
+      "name": "Haitiana Madura",
+      "description": "Fotos tipo pasaporte de mujeres haitianas maduras con características caribeñas",
+      "created": "2025-09-13T20:14:53.843210",
+      "prompt_data": {
+        "gender": "mujer",
+        "nationality": "haitiana",
+        "age_min": 30,
+        "age_max": 40,
+        "prompt_type": "passport_photography",
+        "base_prompt": "official passport photo, mujer haitiana, 30-40 years old, front facing camera, direct eye contact, neutral expression, serious face, white background, uniform lighting, high resolution, clear facial features, realistic photography, natural skin texture, authentic person, ID photo style, government document photo, official photo standards, passport requirements, clear view of face, centered composition, professional lighting, no shadows, clean background, full head visible, complete face, proper framing, passport photo frame, white border, official document style",
+        "negative_prompt": "side view, profile view, three quarter view, angled face, tilted head, looking away, smiling, laughing, casual expression, artistic, stylized, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, perfect skin, flawless, model look, glamour, makeup, jewelry, accessories, colorful background, multiple people, group photo, casual clothes, informal setting, dramatic lighting, shadows, reflections, glasses, hats, headwear, blurry, low quality, distorted, ugly, deformed, bad anatomy, extra limbs, poorly drawn face, double exposure, multiple faces, composite image, bald, shaved head, no hair, cropped head, cut off head, partial face, incomplete face, missing parts, head cut off, face cut off, cropped face, incomplete head, missing head, headless, face missing, head missing, cropped image, cut off image, partial image, incomplete image"
+      },
+      "generation_params": {
+        "width": 512,
+        "height": 512,
+        "steps": 25,
+        "cfg_scale": 7.5,
+        "sampler_name": "DPM++ 2M Karras",
+        "batch_size": 1,
+        "n_iter": 1
+      },
+      "model_name": "realisticVisionV51",
+      "tags": [
+        "haitiana",
+        "madura",
+        "pasaporte",
+        "caribeña"
+      ],
+      "image_path": null,
+      "usage_count": 0,
+      "last_used": null
+    },
+    {
+      "id": "fav_20250913_201453",
+      "name": "Cubana Profesional",
+      "description": "Fotos tipo pasaporte profesionales de mujeres cubanas para documentos oficiales",
+      "created": "2025-09-13T20:14:53.844202",
+      "prompt_data": {
+        "gender": "mujer",
+        "nationality": "cubana",
+        "age_min": 25,
+        "age_max": 35,
+        "prompt_type": "passport_photography",
+        "base_prompt": "official passport photo, mujer cubana, 25-35 years old, front facing camera, direct eye contact, neutral expression, serious face, white background, uniform lighting, high resolution, clear facial features, realistic photography, natural skin texture, authentic person, ID photo style, government document photo, official photo standards, passport requirements, clear view of face, centered composition, professional lighting, no shadows, clean background, full head visible, complete face, proper framing, passport photo frame, white border, official document style",
+        "negative_prompt": "side view, profile view, three quarter view, angled face, tilted head, looking away, smiling, laughing, casual expression, artistic, stylized, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, perfect skin, flawless, model look, glamour, makeup, jewelry, accessories, colorful background, multiple people, group photo, casual clothes, informal setting, dramatic lighting, shadows, reflections, glasses, hats, headwear, blurry, low quality, distorted, ugly, deformed, bad anatomy, extra limbs, poorly drawn face, double exposure, multiple faces, composite image, bald, shaved head, no hair, cropped head, cut off head, partial face, incomplete face, missing parts, head cut off, face cut off, cropped face, incomplete head, missing head, headless, face missing, head missing, cropped image, cut off image, partial image, incomplete image"
+      },
+      "generation_params": {
+        "width": 512,
+        "height": 512,
+        "steps": 25,
+        "cfg_scale": 7.5,
+        "sampler_name": "DPM++ 2M Karras",
+        "batch_size": 1,
+        "n_iter": 1
+      },
+      "model_name": "realisticVisionV51",
+      "tags": [
+        "cubana",
+        "profesional",
+        "pasaporte",
+        "oficial"
+      ],
+      "image_path": null,
+      "usage_count": 0,
+      "last_used": null
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-09-13T20:14:53.836967"
+  }
+}

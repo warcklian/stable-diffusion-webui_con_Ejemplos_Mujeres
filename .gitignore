@@ -1,44 +1,55 @@
-__pycache__
-*.ckpt
+# Modelos y archivos pesados
 *.safetensors
+*.ckpt
+*.pt
 *.pth
+*.bin
+
+# Carpetas de salida
+outputs/
+outputs/*
+
+# Archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Configuración local
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
 .DS_Store
-/ESRGAN/*
-/SwinIR/*
-/repositories
-/venv
-/tmp
-/model.ckpt
-/models/**/*
-/GFPGANv1.3.pth
-/gfpgan/weights/*.pth
-/ui-config.json
-/outputs
-/config.json
-/log
-/webui.settings.bat
-/embeddings
-/styles.csv
-/params.txt
-/styles.csv.bak
-/webui-user.bat
-/webui-user.sh
-/interrogate
-/user.css
-/.idea
-notification.mp3
-/SwinIR
-/textual_inversion
-.vscode
-/extensions
-/test/stdout.txt
-/test/stderr.txt
-/cache.json*
-/config_states/
-/node_modules
-/package-lock.json
-/.coverage*
-/test/test_outputs
-/cache
-trace.json
-/sysinfo-????-??-??-??-??.json
+Thumbs.db
+
+# Archivos de prueba
+test_*.png
+test_*.jpg
+diagnostico_*.png
+diagnostico_*.jpg
+
+# Cache
+cache/
+*.cache
+
+# Archivos de configuración local
+config_local.json
+local_config.json

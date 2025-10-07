@@ -1,0 +1,49 @@
+{
+  "nacionalidades": [
+    "cubana",
+    "venezolana", 
+    "haitiana",
+    "dominicana",
+    "mexicana",
+    "brasileña",
+    "americana",
+    "canadiense",
+    "china",
+    "japonesa",
+    "coreana",
+    "india",
+    "tailandesa",
+    "noruega",
+    "finlandesa",
+    "alemana",
+    "italiana",
+    "francesa",
+    "británica",
+    "española",
+    "nigeriana",
+    "etíope",
+    "sudafricana",
+    "australiana"
+  ],
+  "metadata": {
+    "version": "2.0",
+    "description": "Lista completa de nacionalidades disponibles para generación de diversidad étnica inteligente",
+    "last_updated": "2025-01-12",
+    "total_countries": 24,
+    "regions": {
+      "america_norte": ["americana", "canadiense"],
+      "america_latina": ["cubana", "venezolana", "haitiana", "dominicana", "mexicana", "brasileña"],
+      "asia": ["china", "japonesa", "coreana", "india", "tailandesa"],
+      "europa": ["noruega", "finlandesa", "alemana", "italiana", "francesa", "británica", "española"],
+      "africa": ["nigeriana", "etíope", "sudafricana"],
+      "oceania": ["australiana"]
+    },
+    "features": [
+      "diversidad_inteligente",
+      "caracteristicas_etnicas_coherentes",
+      "diferenciacion_por_pais",
+      "mestizaje_realista",
+      "probabilidades_ponderadas"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Documento Oficial",
+  "description": "Configuración para fotos de documentos oficiales con estándares gubernamentales",
+  "created": "2025-09-13T00:18:36.994190",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 12,
+      "edad_min": 30,
+      "edad_max": 40,
+      "prompt_type": "document_photo",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 28,
+      "cfg_scale": 7.5,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    }
+  }
+}

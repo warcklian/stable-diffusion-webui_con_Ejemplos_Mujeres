@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Índice de países con datos regionales disponibles",
+    "created": "2025-01-12",
+    "system": "modular_country_data"
+  },
+  "countries": {
+    "venezolana": {
+      "file": "venezolana.json",
+      "name": "Venezuela",
+      "regions_count": 4,
+      "regions": ["caracas", "maracaibo", "valencia", "barquisimeto"],
+      "description": "Diversidad regional y étnica basada en datos demográficos reales"
+    },
+    "mexicana": {
+      "file": "mexicana.json",
+      "name": "México",
+      "regions_count": 5,
+      "regions": ["ciudad-mexico", "guadalajara", "monterrey", "merida", "oaxaca"],
+      "description": "Diversidad étnica y regional basada en datos demográficos reales"
+    },
+    "americana": {
+      "file": "americana.json",
+      "name": "Estados Unidos",
+      "regions_count": 4,
+      "regions": ["northeast", "south", "west", "midwest"],
+      "description": "Sistema multicultural avanzado con múltiples orígenes étnicos",
+      "multicultural": true,
+      "ethnic_groups": 6
+    },
+    "cubana": {
+      "file": "cubana.json",
+      "name": "Cuba",
+      "regions_count": 2,
+      "regions": ["occidental", "oriental"],
+      "description": "Diversidad caribeña única con influencia española y africana"
+    },
+    "brasileña": {
+      "file": "brasileña.json",
+      "name": "Brasil",
+      "regions_count": 2,
+      "regions": ["sudeste", "nordeste"],
+      "description": "Diversidad étnica extrema con múltiples orígenes"
+    },
+    "haitiana": {
+      "file": "haitiana.json",
+      "name": "Haití",
+      "regions_count": 3,
+      "regions": ["port-au-prince", "cap-haitien", "gonaives"],
+      "description": "Diversidad afro-caribeña con características regionales específicas"
+    },
+    "dominicana": {
+      "file": "dominicana.json",
+      "name": "República Dominicana",
+      "regions_count": 3,
+      "regions": ["santo-domingo", "santiago", "la-vega"],
+      "description": "Diversidad afro-hispánica con características regionales específicas"
+    }
+  },
+  "fallback_countries": [
+    "china",
+    "japonesa",
+    "coreana",
+    "india",
+    "tailandesa",
+    "noruega",
+    "finlandesa",
+    "alemana",
+    "italiana",
+    "francesa",
+    "británica",
+    "española",
+    "nigeriana",
+    "etíope",
+    "sudafricana",
+    "australiana"
+  ],
+  "usage_notes": {
+    "modular_system": "Cada país tiene su propio archivo JSON para facilitar mantenimiento y escalabilidad",
+    "region_selection": "Si no se especifica región, se selecciona una aleatoriamente para mayor diversidad",
+    "fallback": "Países sin archivo específico usan datos generales del sistema anterior",
+    "adding_countries": "Para agregar un país, crear archivo JSON en este directorio y actualizar este índice"
+  }
+}

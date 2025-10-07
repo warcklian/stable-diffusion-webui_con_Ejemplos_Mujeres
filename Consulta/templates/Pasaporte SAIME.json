@@ -1,0 +1,31 @@
+{
+  "name": "Pasaporte SAIME",
+  "description": "Configuración específica para pasaportes SAIME con proporciones correctas para evitar estiramiento",
+  "created": "2025-01-12T12:00:00.000000",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "venezolana",
+      "cantidad": 10,
+      "edad_min": 18,
+      "edad_max": 60,
+      "prompt_type": "passport_photography",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 640,
+      "steps": 30,
+      "cfg_scale": 8.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    },
+    "prompts": {
+      "base_prompt": "venezuelan passport photo, SAIME standards, official document photo, government ID photo, mujer Venezuela, 18-60 years old, front view, frontal view, looking directly at camera, direct eye contact, neutral expression, serious expression, no smile, no laughing, mouth closed, eyes open and visible, head centered and straight, frontal position, TRANSPARENT BACKGROUND, professional lighting, uniform lighting, even lighting, high contrast, 35mm x 45mm dimensions, 300 DPI resolution, professional quality, high resolution, 512x640 pixels, ultra high quality, no head accessories, natural makeup, beard or mustache if permanent characteristic, no dark glasses, no reflections, sharp and focused image, correct exposure, natural colors, no grain, no distortion, PNG high quality format, high resolution, piel morena, castaño oscuro cabello ondulado cabello suelto, ojos marrones claros, ojos almendrados, párpados dobles, natural facial structure, natural ethnic characteristics, natural wrinkles, natural expression lines, natural eye area, natural skin texture, natural age spots, natural pores, natural skin, natural moles, natural asymmetry, natural imperfections, natural features, natural hair graying, natural hair texture, natural hair density, natural hair loss, clean appearance, neat presentation, appropriate attire, modest clothing, common appearance, natural skin texture, slight asymmetry, authentic facial features, natural hair texture, regular citizen, regular person, professional headshot photography, direct portrait photography, strictly frontal view, no three quarter view, no side view, no profile view, head and shoulders visible, shoulders must be visible, sufficient head space, no head crop, full head visible, head positioned in upper 60% of image, face fills 60% of image height, shoulders visible, natural proportions, no distortion, no stretching, passport photo requirements, ID photo standards, official document standards, government photo standards, SAIME standards, venezuelan passport specifications",
+      "negative_prompt": "blurry, low quality, distorted, ugly, deformed, bad anatomy, extra limbs, poorly drawn face, stretched face, elongated neck, stretched neck, disproportionate head, stretched proportions, 3/4 view, side profile, looking away, smiling, laughing, multiple people, double exposure, passport document visible, photo of photo, magazine model, overly perfect, artificial lighting, shadows, background objects, jewelry, glasses, hat, makeup, retouched, airbrushed, glamour, fashion model, beauty contest, professional headshot, studio lighting, dramatic lighting, soft focus, WHITE BACKGROUND, COLORED BACKGROUND, SOLID BACKGROUND, TEXTURED BACKGROUND, GRADIENT BACKGROUND, PATTERN BACKGROUND, BACKGROUND, BACKDROP, WALL, SURFACE, FLOOR, CEILING, ENVIRONMENT, SCENE, SETTING, LOCATION, PLACE, ROOM, INTERIOR, EXTERIOR, OUTDOOR, INDOOR, STUDIO BACKGROUND, PHOTO STUDIO, BACKGROUND WALL, BACKGROUND SURFACE"
+    }
+  }
+}

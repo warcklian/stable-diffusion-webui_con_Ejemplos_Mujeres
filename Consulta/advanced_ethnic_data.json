@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "description": "Sistema avanzado de diversidad étnica con diferenciación regional",
+    "created": "2025-09-13T20:29:00.703791",
+    "based_on": "Datos demográficos reales y características regionales específicas"
+  },
+  "countries": {
+    "mexicana": {
+      "description": "México - Diversidad étnica y regional basada en datos demográficos reales",
+      "regions": {
+        "ciudad-mexico": {
+          "name": "Ciudad de México",
+          "description": "Región capital con diversidad étnica urbana y mestiza",
+          "demographics": {
+            "european_heritage": 0.25,
+            "mestizo": 0.65,
+            "indigenous": 0.08,
+            "african_heritage": 0.02
+          },
+          "characteristics": {
+            "skin_tones": [
+              "fair skin",
+              "medium skin",
+              "tan skin"
+            ],
+            "hair_colors": [
+              "brown hair",
+              "dark brown hair",
+              "black hair"
+            ],
+            "hair_styles": [
+              "straight hair",
+              "wavy hair",
+              "curly hair"
+            ],
+            "eye_colors": [
+              "brown eyes",
+              "hazel eyes",
+              "blue eyes"
+            ],
+            "facial_structures": {
+              "oval": 0.3,
+              "square": 0.25,
+              "round": 0.2,
+              "diamond": 0.1
+            },
+            "height_tendency": "average",
+            "body_type": "mixed",
+            "ethnic_characteristics": [
+              "mexican mestizo features",
+              "mixed european and indigenous ancestry",
+              "central mexican characteristics",
+              "mexican urban features",
+              "mexican facial structure",
+              "latin american mixed heritage",
+              "mexican mestizo characteristics"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

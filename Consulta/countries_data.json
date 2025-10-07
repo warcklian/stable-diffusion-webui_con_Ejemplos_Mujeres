@@ -1,0 +1,395 @@
+{
+  "countries": {
+    "cubana": {
+      "name": "Cuba",
+      "flag": "🇨🇺",
+      "demographics": {
+        "mestizos": "65%",
+        "blancos": "25%",
+        "afrocubanos": "10%"
+      },
+      "characteristics": {
+        "skin_tones": [
+          "piel morena clara", "piel morena media", "piel morena oscura",
+          "piel trigueña", "piel canela", "piel bronceada",
+          "piel mestiza", "piel mulata", "piel criolla",
+          "piel con tonos dorados", "piel con matices cálidos"
+        ],
+        "hair_types": [
+          "cabello rizado natural", "cabello ondulado", "cabello lacio",
+          "cabello corto", "cabello mediano", "cabello largo",
+          "cabello con ondas suaves", "cabello con rizos apretados",
+          "cabello con textura natural", "cabello con volumen",
+          "cabello con ondas caribeñas", "cabello con rizos definidos",
+          "cabello muy rizado", "cabello quebrado", "cabello chino"
+        ],
+        "hair_colors": [
+          "cabello castaño", "cabello castaño oscuro", "cabello negro",
+          "cabello castaño claro", "cabello rubio", "cabello rubio oscuro",
+          "cabello pelirrojo", "cabello auburn", "cabello con reflejos dorados",
+          "cabello con mechas naturales", "cabello con variaciones de tono",
+          "cabello con matices caribeños", "cabello con brillo natural"
+        ],
+        "eye_colors": [
+          "ojos marrones", "ojos marrones oscuros", "ojos marrones claros",
+          "ojos verdes", "ojos azules", "ojos grises", "ojos avellana", "ojos ámbar",
+          "ojos con matices dorados", "ojos con reflejos verdes", "ojos con reflejos azules",
+          "ojos con profundidad caribeña", "ojos con brillo tropical"
+        ],
+        "facial_features": [
+          "rostro ovalado", "rostro redondo", "rostro alargado",
+          "rostro con pómulos marcados", "rostro con mandíbula definida",
+          "rostro con estructura facial equilibrada", "rostro con rasgos suaves",
+          "rostro con características mestizas", "rostro con proporciones armónicas"
+        ],
+        "natural_imperfections": [
+          "pequeñas pecas", "lunares naturales", "arrugas de expresión",
+          "líneas de sonrisa", "marcas de edad naturales",
+          "textura de piel realista", "poros visibles", "variaciones de tono",
+          "marcas de sol natural", "arrugas de risa", "expresión de vida"
+        ],
+        "clothing_styles": [
+          "camisa de manga larga", "blusa elegante", "camisa de vestir",
+          "polo de manga corta", "camiseta de cuello alto", "blusa de cuello redondo",
+          "camisa de botones", "blusa de manga corta", "camisa casual elegante"
+        ],
+        "clothing_colors": [
+          "azul marino", "gris oscuro", "negro", "azul claro", "gris claro",
+          "verde oscuro", "marrón", "granate", "azul cielo", "gris medio",
+          "verde oliva", "marrón claro", "azul real", "gris perla"
+        ],
+        "hair_styles_male": [
+          "peinado clásico", "peinado moderno", "peinado despeinado",
+          "peinado con gomina", "peinado natural", "peinado corto",
+          "peinado con raya", "peinado hacia atrás", "peinado con gel"
+        ],
+        "hair_styles_female": [
+          "cabello suelto", "cabello recogido", "cabello con ondas",
+          "cabello con mechones", "cabello con trenzas", "cabello con moño",
+          "cabello con cola", "cabello con flequillo", "cabello con rizos"
+        ],
+        "hair_lengths_male": [
+          "cabello corto", "cabello muy corto", "cabello mediano", "cabello largo"
+        ],
+        "hair_lengths_female": [
+          "cabello largo", "cabello mediano", "cabello corto", "cabello muy corto"
+        ],
+        "hair_textures": [
+          "cabello lacio", "cabello ondulado", "cabello rizado", "cabello muy rizado",
+          "cabello quebrado", "cabello chino", "cabello con ondas suaves",
+          "cabello con rizos apretados", "cabello con textura natural"
+        ]
+      },
+      "regions": {
+        "habana": {
+          "name": "La Habana",
+          "characteristics": ["influencia urbana", "estilo moderno", "expresión cosmopolita"]
+        },
+        "santiago": {
+          "name": "Santiago de Cuba",
+          "characteristics": ["influencia caribeña", "estilo tradicional", "expresión auténtica"]
+        },
+        "camaguey": {
+          "name": "Camagüey",
+          "characteristics": ["influencia colonial", "estilo clásico", "expresión serena"]
+        },
+        "holguin": {
+          "name": "Holguín",
+          "characteristics": ["influencia oriental", "estilo natural", "expresión genuina"]
+        }
+      }
+    },
+    "venezolana": {
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "demographics": {
+        "mestizos": "70%",
+        "blancos": "20%",
+        "afrodescendientes": "8%",
+        "indígenas": "2%"
+      },
+      "characteristics": {
+        "skin_tones": [
+          "piel morena clara", "piel morena media", "piel morena oscura",
+          "piel trigueña", "piel canela", "piel bronceada",
+          "piel mestiza", "piel mulata", "piel criolla",
+          "piel con tonos andinos", "piel con matices tropicales"
+        ],
+        "hair_types": [
+          "cabello rizado natural", "cabello ondulado", "cabello lacio",
+          "cabello corto", "cabello mediano", "cabello largo",
+          "cabello con ondas suaves", "cabello con rizos apretados",
+          "cabello con textura natural", "cabello con volumen",
+          "cabello con ondas venezolanas", "cabello con rizos definidos"
+        ],
+        "hair_colors": [
+          "cabello castaño", "cabello castaño oscuro", "cabello negro",
+          "cabello castaño claro", "cabello rubio", "cabello rubio oscuro",
+          "cabello pelirrojo", "cabello auburn", "cabello con reflejos dorados",
+          "cabello con mechas naturales", "cabello con variaciones de tono",
+          "cabello con matices venezolanos", "cabello con brillo natural"
+        ],
+        "eye_colors": [
+          "ojos marrones", "ojos marrones oscuros", "ojos marrones claros",
+          "ojos verdes", "ojos azules", "ojos grises", "ojos avellana", "ojos ámbar",
+          "ojos con matices dorados", "ojos con reflejos verdes", "ojos con reflejos azules",
+          "ojos con profundidad venezolana", "ojos con brillo tropical"
+        ],
+        "facial_features": [
+          "rostro ovalado", "rostro redondo", "rostro alargado",
+          "rostro con pómulos marcados", "rostro con mandíbula definida",
+          "rostro con estructura facial equilibrada", "rostro con rasgos suaves",
+          "rostro con características mestizas", "rostro con proporciones armónicas"
+        ],
+        "natural_imperfections": [
+          "pequeñas pecas", "lunares naturales", "arrugas de expresión",
+          "líneas de sonrisa", "marcas de edad naturales",
+          "textura de piel realista", "poros visibles", "variaciones de tono",
+          "marcas de sol natural", "arrugas de risa", "expresión de vida"
+        ],
+        "clothing_styles": [
+          "camisa de manga larga", "blusa elegante", "camisa de vestir",
+          "polo de manga corta", "camiseta de cuello alto", "blusa de cuello redondo",
+          "camisa de botones", "blusa de manga corta", "camisa casual elegante"
+        ],
+        "clothing_colors": [
+          "azul marino", "gris oscuro", "negro", "azul claro", "gris claro",
+          "verde oscuro", "marrón", "granate", "azul cielo", "gris medio",
+          "verde oliva", "marrón claro", "azul real", "gris perla"
+        ],
+        "hair_styles_male": [
+          "peinado clásico", "peinado moderno", "peinado despeinado",
+          "peinado con gomina", "peinado natural", "peinado corto",
+          "peinado con raya", "peinado hacia atrás", "peinado con gel"
+        ],
+        "hair_styles_female": [
+          "cabello suelto", "cabello recogido", "cabello con ondas",
+          "cabello con mechones", "cabello con trenzas", "cabello con moño",
+          "cabello con cola", "cabello con flequillo", "cabello con rizos"
+        ],
+        "hair_lengths_male": [
+          "cabello corto", "cabello muy corto", "cabello mediano", "cabello largo"
+        ],
+        "hair_lengths_female": [
+          "cabello largo", "cabello mediano", "cabello corto", "cabello muy corto"
+        ],
+        "hair_textures": [
+          "cabello lacio", "cabello ondulado", "cabello rizado", "cabello muy rizado",
+          "cabello quebrado", "cabello chino", "cabello con ondas suaves",
+          "cabello con rizos apretados", "cabello con textura natural"
+        ]
+      },
+      "regions": {
+        "caracas": {
+          "name": "Caracas",
+          "characteristics": ["influencia urbana", "estilo moderno", "expresión cosmopolita"]
+        },
+        "maracaibo": {
+          "name": "Maracaibo",
+          "characteristics": ["influencia zuliana", "estilo tradicional", "expresión auténtica"]
+        },
+        "valencia": {
+          "name": "Valencia",
+          "characteristics": ["influencia central", "estilo clásico", "expresión serena"]
+        },
+        "barquisimeto": {
+          "name": "Barquisimeto",
+          "characteristics": ["influencia llanera", "estilo natural", "expresión genuina"]
+        }
+      }
+    },
+    "haitiana": {
+      "name": "Haití",
+      "flag": "🇭🇹",
+      "demographics": {
+        "afrodescendientes": "95%",
+        "mestizos": "4%",
+        "blancos": "1%"
+      },
+      "characteristics": {
+        "skin_tones": [
+          "piel morena oscura", "piel morena media", "piel morena clara",
+          "piel trigueña", "piel canela", "piel bronceada",
+          "piel mestiza", "piel mulata", "piel criolla",
+          "piel con tonos caribeños", "piel con matices africanos"
+        ],
+        "hair_types": [
+          "cabello rizado natural", "cabello ondulado", "cabello lacio",
+          "cabello corto", "cabello mediano", "cabello largo",
+          "cabello con ondas suaves", "cabello con rizos apretados",
+          "cabello con textura natural", "cabello con volumen",
+          "cabello con ondas haitianas", "cabello con rizos definidos"
+        ],
+        "hair_colors": [
+          "cabello castaño", "cabello castaño oscuro", "cabello negro",
+          "cabello castaño claro", "cabello rubio", "cabello rubio oscuro",
+          "cabello pelirrojo", "cabello auburn", "cabello con reflejos dorados",
+          "cabello con mechas naturales", "cabello con variaciones de tono",
+          "cabello con matices haitianos", "cabello con brillo natural"
+        ],
+        "eye_colors": [
+          "ojos marrones", "ojos marrones oscuros", "ojos marrones claros",
+          "ojos verdes", "ojos azules", "ojos grises", "ojos avellana", "ojos ámbar",
+          "ojos con matices dorados", "ojos con reflejos verdes", "ojos con reflejos azules",
+          "ojos con profundidad haitiana", "ojos con brillo tropical"
+        ],
+        "facial_features": [
+          "rostro ovalado", "rostro redondo", "rostro alargado",
+          "rostro con pómulos marcados", "rostro con mandíbula definida",
+          "rostro con estructura facial equilibrada", "rostro con rasgos suaves",
+          "rostro con características afrodescendientes", "rostro con proporciones armónicas"
+        ],
+        "natural_imperfections": [
+          "pequeñas pecas", "lunares naturales", "arrugas de expresión",
+          "líneas de sonrisa", "marcas de edad naturales",
+          "textura de piel realista", "poros visibles", "variaciones de tono",
+          "marcas de sol natural", "arrugas de risa", "expresión de vida"
+        ],
+        "clothing_styles": [
+          "camisa de manga larga", "blusa elegante", "camisa de vestir",
+          "polo de manga corta", "camiseta de cuello alto", "blusa de cuello redondo",
+          "camisa de botones", "blusa de manga corta", "camisa casual elegante"
+        ],
+        "clothing_colors": [
+          "azul marino", "gris oscuro", "negro", "azul claro", "gris claro",
+          "verde oscuro", "marrón", "granate", "azul cielo", "gris medio",
+          "verde oliva", "marrón claro", "azul real", "gris perla"
+        ],
+        "hair_styles_male": [
+          "peinado natural", "peinado corto", "peinado con gomina",
+          "peinado clásico", "peinado moderno", "peinado despeinado",
+          "peinado con raya", "peinado hacia atrás", "peinado con gel"
+        ],
+        "hair_styles_female": [
+          "cabello con trenzas", "cabello suelto", "cabello recogido",
+          "cabello con ondas", "cabello con mechones", "cabello con moño",
+          "cabello con cola", "cabello con flequillo", "cabello con rizos"
+        ],
+        "hair_lengths_male": [
+          "cabello corto", "cabello muy corto", "cabello mediano", "cabello largo"
+        ],
+        "hair_lengths_female": [
+          "cabello largo", "cabello mediano", "cabello corto", "cabello muy corto"
+        ],
+        "hair_textures": [
+          "cabello rizado", "cabello muy rizado", "cabello ondulado", "cabello lacio",
+          "cabello quebrado", "cabello chino", "cabello con ondas suaves",
+          "cabello con rizos apretados", "cabello con textura natural"
+        ]
+      },
+      "regions": {
+        "port-au-prince": {
+          "name": "Port-au-Prince",
+          "characteristics": ["influencia urbana", "estilo moderno", "expresión cosmopolita"]
+        },
+        "cap-haitien": {
+          "name": "Cap-Haïtien",
+          "characteristics": ["influencia colonial", "estilo tradicional", "expresión auténtica"]
+        },
+        "gonaives": {
+          "name": "Gonaïves",
+          "characteristics": ["influencia histórica", "estilo clásico", "expresión serena"]
+        }
+      }
+    },
+    "dominicana": {
+      "name": "República Dominicana",
+      "flag": "🇩🇴",
+      "demographics": {
+        "mestizos": "73%",
+        "blancos": "16%",
+        "afrodescendientes": "11%"
+      },
+      "characteristics": {
+        "skin_tones": [
+          "piel morena clara", "piel morena media", "piel morena oscura",
+          "piel trigueña", "piel canela", "piel bronceada",
+          "piel mestiza", "piel mulata", "piel criolla",
+          "piel con tonos caribeños", "piel con matices dominicanos"
+        ],
+        "hair_types": [
+          "cabello rizado natural", "cabello ondulado", "cabello lacio",
+          "cabello corto", "cabello mediano", "cabello largo",
+          "cabello con ondas suaves", "cabello con rizos apretados",
+          "cabello con textura natural", "cabello con volumen",
+          "cabello con ondas dominicanas", "cabello con rizos definidos"
+        ],
+        "hair_colors": [
+          "cabello castaño", "cabello castaño oscuro", "cabello negro",
+          "cabello castaño claro", "cabello rubio", "cabello rubio oscuro",
+          "cabello pelirrojo", "cabello auburn", "cabello con reflejos dorados",
+          "cabello con mechas naturales", "cabello con variaciones de tono",
+          "cabello con matices dominicanos", "cabello con brillo natural"
+        ],
+        "eye_colors": [
+          "ojos marrones", "ojos marrones oscuros", "ojos marrones claros",
+          "ojos verdes", "ojos azules", "ojos grises", "ojos avellana", "ojos ámbar",
+          "ojos con matices dorados", "ojos con reflejos verdes", "ojos con reflejos azules",
+          "ojos con profundidad dominicana", "ojos con brillo tropical"
+        ],
+        "facial_features": [
+          "rostro ovalado", "rostro redondo", "rostro alargado",
+          "rostro con pómulos marcados", "rostro con mandíbula definida",
+          "rostro con estructura facial equilibrada", "rostro con rasgos suaves",
+          "rostro con características mestizas", "rostro con proporciones armónicas"
+        ],
+        "natural_imperfections": [
+          "pequeñas pecas", "lunares naturales", "arrugas de expresión",
+          "líneas de sonrisa", "marcas de edad naturales",
+          "textura de piel realista", "poros visibles", "variaciones de tono",
+          "marcas de sol natural", "arrugas de risa", "expresión de vida"
+        ],
+        "clothing_styles": [
+          "camisa de manga larga", "blusa elegante", "camisa de vestir",
+          "polo de manga corta", "camiseta de cuello alto", "blusa de cuello redondo",
+          "camisa de botones", "blusa de manga corta", "camisa casual elegante"
+        ],
+        "clothing_colors": [
+          "azul marino", "gris oscuro", "negro", "azul claro", "gris claro",
+          "verde oscuro", "marrón", "granate", "azul cielo", "gris medio",
+          "verde oliva", "marrón claro", "azul real", "gris perla"
+        ],
+        "hair_styles_male": [
+          "peinado clásico", "peinado moderno", "peinado despeinado",
+          "peinado con gomina", "peinado natural", "peinado corto",
+          "peinado con raya", "peinado hacia atrás", "peinado con gel"
+        ],
+        "hair_styles_female": [
+          "cabello suelto", "cabello recogido", "cabello con ondas",
+          "cabello con mechones", "cabello con trenzas", "cabello con moño",
+          "cabello con cola", "cabello con flequillo", "cabello con rizos"
+        ],
+        "hair_lengths_male": [
+          "cabello corto", "cabello muy corto", "cabello mediano", "cabello largo"
+        ],
+        "hair_lengths_female": [
+          "cabello largo", "cabello mediano", "cabello corto", "cabello muy corto"
+        ],
+        "hair_textures": [
+          "cabello ondulado", "cabello rizado", "cabello lacio", "cabello muy rizado",
+          "cabello quebrado", "cabello chino", "cabello con ondas suaves",
+          "cabello con rizos apretados", "cabello con textura natural"
+        ]
+      },
+      "regions": {
+        "santo-domingo": {
+          "name": "Santo Domingo",
+          "characteristics": ["influencia urbana", "estilo moderno", "expresión cosmopolita"]
+        },
+        "santiago": {
+          "name": "Santiago",
+          "characteristics": ["influencia cibaeña", "estilo tradicional", "expresión auténtica"]
+        },
+        "la-vega": {
+          "name": "La Vega",
+          "characteristics": ["influencia central", "estilo clásico", "expresión serena"]
+        }
+      }
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "description": "Datos dinámicos de países para generación de diversidad étnica",
+    "last_updated": "2025-01-12"
+  }
+}

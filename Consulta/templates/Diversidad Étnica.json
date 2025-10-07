@@ -1,0 +1,27 @@
+{
+  "name": "Diversidad Étnica",
+  "description": "Configuración para generar diversidad étnica variada",
+  "created": "2025-09-13T00:17:56.427805",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 20,
+      "edad_min": 20,
+      "edad_max": 60,
+      "prompt_type": "ethnic_diversity",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 25,
+      "cfg_scale": 7.5,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 2,
+      "n_iter": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Retrato Realista",
+  "description": "Configuración para retratos realistas con imperfecciones naturales",
+  "created": "2025-09-13T00:17:56.425788",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 5,
+      "edad_min": 25,
+      "edad_max": 50,
+      "prompt_type": "realistic_portrait",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 768,
+      "height": 768,
+      "steps": 30,
+      "cfg_scale": 8.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    }
+  }
+}

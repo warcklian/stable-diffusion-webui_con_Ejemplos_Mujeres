@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas para Pasaporte Venezolano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0052A4 0%, #CF142B 100%);
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        header {
+            background: #00247D;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #FFCC00;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image-section {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .specs-section {
+            flex: 1;
+            min-width: 300px;
+            padding: 30px;
+        }
+        .photo-template {
+            width: 300px;
+            height: 350px;
+            background: white;
+            border: 2px solid #00247D;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .face-outline {
+            width: 200px;
+            height: 250px;
+            border: 2px dashed #CF142B;
+            border-radius: 50%;
+            position: relative;
+        }
+        .measurement {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 4px;
+            font-size: 12px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+        }
+        .top-border {
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .bottom-border {
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .left-border {
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .right-border {
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .top-face {
+            top: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .bottom-face {
+            bottom: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .left-face {
+            left: 60px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .right-face {
+            right: 60px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        h2 {
+            color: #00247D;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        .specs-list {
+            list-style: none;
+        }
+        .specs-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+        .specs-list li:before {
+            content: "•";
+            color: #CF142B;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+        .note {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .dimension-line {
+            position: absolute;
+            background: #CF142B;
+            height: 2px;
+            transform-origin: left center;
+        }
+        .dimension-line.horizontal {
+            width: 100px;
+        }
+        .dimension-line.vertical {
+            width: 2px;
+            height: 100px;
+            transform: rotate(90deg);
+        }
+        .dimension-line.top {
+            top: 30px;
+            left: 100px;
+        }
+        .dimension-line.bottom {
+            bottom: 30px;
+            left: 100px;
+        }
+        .dimension-line.left {
+            left: 30px;
+            top: 125px;
+        }
+        .dimension-line.right {
+            right: 30px;
+            top: 125px;
+        }
+        .flag {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .flag-color {
+            width: 30px;
+            height: 10px;
+        }
+        .blue {
+            background: #00247D;
+        }
+        .yellow {
+            background: #FFCC00;
+        }
+        .red {
+            background: #CF142B;
+        }
+        @media (max-width: 650px) {
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Medidas para Fotografía de Pasaporte Venezolano</h1>
+            <p class="subtitle">Requisitos específicos para documentos venezolanos</p>
+            <div class="flag">
+                <div class="flag-color blue"></div>
+                <div class="flag-color yellow"></div>
+                <div class="flag-color red"></div>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="image-section">
+                <div class="photo-template">
+                    <div class="face-outline">
+                        <!-- Dimension lines -->
+                        <div class="dimension-line horizontal top"></div>
+                        <div class="dimension-line horizontal bottom"></div>
+                        <div class="dimension-line vertical left"></div>
+                        <div class="dimension-line vertical right"></div>
+                        
+                        <!-- Measurement labels -->
+                        <div class="measurement top-border">35-40 mm</div>
+                        <div class="measurement bottom-border">35-40 mm</div>
+                        <div class="measurement left-border">35-40 mm</div>
+                        <div class="measurement right-border">35-40 mm</div>
+                        
+                        <div class="measurement top-face">5-10 mm</div>
+                        <div class="measurement bottom-face">20-25 mm</div>
+                        <div class="measurement left-face">10-15 mm</div>
+                        <div class="measurement right-face">10-15 mm</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-section">
+                <h2>Especificaciones Técnicas para Venezuela</h2>
+                <ul class="specs-list">
+                    <li><strong>Tamaño de la fotografía:</strong> 35 mm × 45 mm (ancho × alto)</li>
+                    <li><strong>Resolución recomendada:</strong> 600 píxeles por pulgada (ppp)</li>
+                    <li><strong>Fondo:</strong> Blanco liso sin texturas ni sombras</li>
+                    <li><strong>Distancia desde la parte superior de la cabeza al borde superior:</strong> 2-5 mm</li>
+                    <li><strong>Altura del rostro (desde la barbilla hasta la coronilla):</strong> 30-34 mm</li>
+                    <li><strong>Distancia desde el borde de la foto hasta los lados de la cabeza:</strong> 10-15 mm cada lado</li>
+                    <li><strong>Espacio entre la parte inferior de la barbilla y el borde inferior:</strong> 20-25 mm</li>
+                    <li><strong>Ojos:</strong> Bien abiertos y visibles, con mirada frontal al objetivo</li>
+                    <li><strong>Expresión:</strong> Neutral, con la boca cerrada y sin sonreír</li>
+                    <li><strong>Vestimenta:</strong> Colores contrastantes con el fondo blanco (evitar blanco)</li>
+                    <li><strong>Accesorios:</strong> No permitidos (excepto lentes médicos indispensables y sin reflejos)</li>
+                    <li><strong>Iluminación:</strong> Uniforme, sin sombras en el rostro o fondo</li>
+                </ul>
+                
+                <div class="note">
+                    <p><strong>Nota importante:</strong> Estas especificaciones son según los requisitos actuales del SAIME (Servicio Administrativo de Identificación, Migración y Extranjería) de Venezuela.</p>
+                    <p>La fotografía debe ser reciente (tomada en los últimos 6 meses) y mostrar su apariencia actual. No se permiten fotos con uniformes o ropa que pueda confundirse con prendas oficiales.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

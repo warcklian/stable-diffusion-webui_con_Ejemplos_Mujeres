@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "country_code": "haitiana",
+    "country_name": "Haití",
+    "version": "1.0",
+    "description": "Haití - Diversidad regional basada en datos demográficos reales",
+    "created": "2025-01-17",
+    "based_on": "Datos demográficos reales y características regionales específicas de Haití"
+  },
+  "regions": {
+    "port-au-prince": {
+      "name": "Puerto Príncipe",
+      "description": "Región capital con diversidad urbana y características afro-caribeñas",
+      "demographics": {
+        "european_heritage": 0.05,
+        "mestizo": 0.15,
+        "indigenous": 0.0,
+        "african_heritage": 0.8
+      },
+      "skin_tones": {
+        "very_light": 0.01,
+        "light": 0.04,
+        "medium_light": 0.15,
+        "medium": 0.3,
+        "medium_dark": 0.35,
+        "dark": 0.15
+      },
+      "hair_colors": {
+        "blonde": 0.01,
+        "light_brown": 0.05,
+        "medium_brown": 0.2,
+        "dark_brown": 0.4,
+        "black": 0.34
+      },
+      "hair_styles": {
+        "straight": 0.1,
+        "wavy": 0.2,
+        "curly": 0.4,
+        "afro": 0.3
+      },
+      "eye_colors": {
+        "blue": 0.01,
+        "green": 0.02,
+        "hazel": 0.05,
+        "brown": 0.7,
+        "dark_brown": 0.22
+      },
+      "facial_structures": {
+        "oval": 0.3,
+        "round": 0.35,
+        "square": 0.25,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "haitian afro-caribbean features",
+        "mixed african and european ancestry",
+        "caribbean afro-latino features",
+        "haitian facial structure",
+        "afro-caribbean characteristics",
+        "haitian urban features",
+        "caribbean coastal features",
+        "haitian mestizo characteristics"
+      ]
+    },
+    "cap-haitien": {
+      "name": "Cap-Haïtien",
+      "description": "Región norte con características históricas y costeras",
+      "demographics": {
+        "european_heritage": 0.08,
+        "mestizo": 0.12,
+        "indigenous": 0.0,
+        "african_heritage": 0.8
+      },
+      "skin_tones": {
+        "very_light": 0.02,
+        "light": 0.06,
+        "medium_light": 0.18,
+        "medium": 0.32,
+        "medium_dark": 0.32,
+        "dark": 0.1
+      },
+      "hair_colors": {
+        "blonde": 0.02,
+        "light_brown": 0.08,
+        "medium_brown": 0.25,
+        "dark_brown": 0.4,
+        "black": 0.25
+      },
+      "hair_styles": {
+        "straight": 0.12,
+        "wavy": 0.25,
+        "curly": 0.38,
+        "afro": 0.25
+      },
+      "eye_colors": {
+        "blue": 0.02,
+        "green": 0.03,
+        "hazel": 0.08,
+        "brown": 0.65,
+        "dark_brown": 0.22
+      },
+      "facial_structures": {
+        "oval": 0.32,
+        "round": 0.32,
+        "square": 0.26,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "haitian afro-caribbean features",
+        "mixed african and european ancestry",
+        "caribbean afro-latino features",
+        "haitian facial structure",
+        "afro-caribbean characteristics",
+        "haitian urban features",
+        "caribbean coastal features",
+        "haitian mestizo characteristics"
+      ]
+    },
+    "gonaives": {
+      "name": "Gonaïves",
+      "description": "Región centro-occidental con características históricas y agrícolas",
+      "demographics": {
+        "european_heritage": 0.06,
+        "mestizo": 0.14,
+        "indigenous": 0.0,
+        "african_heritage": 0.8
+      },
+      "skin_tones": {
+        "very_light": 0.01,
+        "light": 0.05,
+        "medium_light": 0.16,
+        "medium": 0.34,
+        "medium_dark": 0.34,
+        "dark": 0.1
+      },
+      "hair_colors": {
+        "blonde": 0.01,
+        "light_brown": 0.06,
+        "medium_brown": 0.22,
+        "dark_brown": 0.41,
+        "black": 0.3
+      },
+      "hair_styles": {
+        "straight": 0.08,
+        "wavy": 0.22,
+        "curly": 0.4,
+        "afro": 0.3
+      },
+      "eye_colors": {
+        "blue": 0.01,
+        "green": 0.02,
+        "hazel": 0.06,
+        "brown": 0.68,
+        "dark_brown": 0.23
+      },
+      "facial_structures": {
+        "oval": 0.3,
+        "round": 0.36,
+        "square": 0.24,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "haitian afro-caribbean features",
+        "mixed african and european ancestry",
+        "caribbean afro-latino features",
+        "haitian facial structure",
+        "afro-caribbean characteristics",
+        "haitian urban features",
+        "caribbean coastal features",
+        "haitian mestizo characteristics"
+      ]
+    }
+  }
+}

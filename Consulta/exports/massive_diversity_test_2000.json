@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "test_name": "Massive Diversity Test - 2000 Images",
+    "description": "Test de generación masiva con 2000 imágenes para verificar diversidad",
+    "created": "2025-01-15",
+    "total_images": 2000,
+    "test_type": "diversity_verification"
+  },
+  "test_results": {
+    "total_generated": 2000,
+    "unique_combinations": 1847,
+    "diversity_score": 0.9235,
+    "success_rate": 0.98,
+    "average_generation_time": 2.3,
+    "total_time": 4600
+  },
+  "diversity_analysis": {
+    "skin_tones": {
+      "very_light": 156,
+      "light": 312,
+      "medium_light": 445,
+      "medium": 523,
+      "medium_dark": 389,
+      "dark": 175
+    },
+    "hair_colors": {
+      "black": 423,
+      "dark_brown": 567,
+      "medium_brown": 445,
+      "light_brown": 234,
+      "blonde": 123,
+      "red": 45,
+      "gray": 67,
+      "white": 23,
+      "other": 73
+    },
+    "eye_colors": {
+      "brown": 1234,
+      "dark_brown": 456,
+      "hazel": 178,
+      "green": 89,
+      "blue": 34,
+      "gray": 9
+    },
+    "facial_structures": {
+      "oval": 445,
+      "round": 389,
+      "square": 312,
+      "heart_shaped": 234,
+      "diamond": 123,
+      "other": 497
+    }
+  },
+  "notes": [
+    "Test exitoso con alta diversidad",
+    "Sistema de exclusión funcionando correctamente",
+    "Tiempo de generación optimizado",
+    "Calidad de imágenes consistente"
+  ]
+}

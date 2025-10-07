@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "country_code": "venezolana",
+    "country_name": "Venezuela",
+    "version": "1.0",
+    "description": "Venezuela - Diversidad regional basada en datos demográficos reales",
+    "created": "2025-01-17",
+    "based_on": "Datos demográficos reales y características regionales específicas de Venezuela"
+  },
+  "regions": {
+    "caracas": {
+      "name": "Caracas",
+      "description": "Región capital con diversidad étnica urbana",
+      "demographics": {
+        "european_heritage": 0.35,
+        "mestizo": 0.45,
+        "indigenous": 0.1,
+        "african_heritage": 0.1
+      },
+      "skin_tones": {
+        "very_light": 0.15,
+        "light": 0.25,
+        "medium_light": 0.3,
+        "medium": 0.2,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.08,
+        "light_brown": 0.25,
+        "medium_brown": 0.4,
+        "dark_brown": 0.22,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.45,
+        "wavy": 0.35,
+        "curly": 0.15,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.12,
+        "green": 0.08,
+        "hazel": 0.15,
+        "brown": 0.55,
+        "dark_brown": 0.1
+      },
+      "facial_structures": {
+        "oval": 0.4,
+        "round": 0.25,
+        "square": 0.2,
+        "heart": 0.15
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "venezuelan mestizo features",
+        "mixed european and indigenous ancestry",
+        "caribbean latino features",
+        "south american mestizo characteristics",
+        "venezuelan facial structure",
+        "latin american mixed heritage",
+        "caribbean coastal features",
+        "venezuelan urban characteristics"
+      ]
+    },
+    "maracaibo": {
+      "name": "Maracaibo",
+      "description": "Región occidental con influencia caribeña y petrolera",
+      "demographics": {
+        "european_heritage": 0.3,
+        "mestizo": 0.5,
+        "indigenous": 0.15,
+        "african_heritage": 0.05
+      },
+      "skin_tones": {
+        "very_light": 0.1,
+        "light": 0.2,
+        "medium_light": 0.35,
+        "medium": 0.25,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.05,
+        "light_brown": 0.2,
+        "medium_brown": 0.45,
+        "dark_brown": 0.25,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.4,
+        "wavy": 0.4,
+        "curly": 0.15,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.08,
+        "green": 0.05,
+        "hazel": 0.12,
+        "brown": 0.65,
+        "dark_brown": 0.1
+      },
+      "facial_structures": {
+        "oval": 0.35,
+        "round": 0.3,
+        "square": 0.25,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "venezuelan mestizo features",
+        "western venezuelan characteristics",
+        "caribbean coastal mestizo",
+        "zulia region features",
+        "mixed european and indigenous ancestry",
+        "venezuelan coastal features",
+        "latin american mixed heritage",
+        "south american mestizo characteristics"
+      ]
+    },
+    "valencia": {
+      "name": "Valencia",
+      "description": "Región central con características industriales y agrícolas",
+      "demographics": {
+        "european_heritage": 0.32,
+        "mestizo": 0.48,
+        "indigenous": 0.12,
+        "african_heritage": 0.08
+      },
+      "skin_tones": {
+        "very_light": 0.12,
+        "light": 0.22,
+        "medium_light": 0.32,
+        "medium": 0.24,
+        "medium_dark": 0.08,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.06,
+        "light_brown": 0.22,
+        "medium_brown": 0.42,
+        "dark_brown": 0.25,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.42,
+        "wavy": 0.38,
+        "curly": 0.15,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.1,
+        "green": 0.06,
+        "hazel": 0.14,
+        "brown": 0.6,
+        "dark_brown": 0.1
+      },
+      "facial_structures": {
+        "oval": 0.38,
+        "round": 0.28,
+        "square": 0.22,
+        "heart": 0.12
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "venezuelan mestizo features",
+        "central venezuelan characteristics",
+        "carabobo region features",
+        "mixed european and indigenous ancestry",
+        "venezuelan central features",
+        "latin american mixed heritage",
+        "south american mestizo characteristics",
+        "venezuelan urban characteristics"
+      ]
+    },
+    "barquisimeto": {
+      "name": "Barquisimeto",
+      "description": "Región centro-occidental con características llaneras y andinas",
+      "demographics": {
+        "european_heritage": 0.28,
+        "mestizo": 0.52,
+        "indigenous": 0.15,
+        "african_heritage": 0.05
+      },
+      "skin_tones": {
+        "very_light": 0.08,
+        "light": 0.18,
+        "medium_light": 0.32,
+        "medium": 0.3,
+        "medium_dark": 0.1,
+        "dark": 0.02
+      },
+      "hair_colors": {
+        "blonde": 0.04,
+        "light_brown": 0.18,
+        "medium_brown": 0.48,
+        "dark_brown": 0.25,
+        "black": 0.05
+      },
+      "hair_styles": {
+        "straight": 0.38,
+        "wavy": 0.42,
+        "curly": 0.15,
+        "afro": 0.05
+      },
+      "eye_colors": {
+        "blue": 0.06,
+        "green": 0.04,
+        "hazel": 0.1,
+        "brown": 0.7,
+        "dark_brown": 0.1
+      },
+      "facial_structures": {
+        "oval": 0.35,
+        "round": 0.3,
+        "square": 0.25,
+        "heart": 0.1
+      },
+      "height_tendency": "average",
+      "body_type": "mixed",
+      "ethnic_characteristics": [
+        "venezuelan mestizo features",
+        "lara region characteristics",
+        "centro-occidental features",
+        "mixed european and indigenous ancestry",
+        "venezuelan llanera features",
+        "latin american mixed heritage",
+        "south american mestizo characteristics",
+        "venezuelan regional characteristics"
+      ]
+    }
+  }
+}

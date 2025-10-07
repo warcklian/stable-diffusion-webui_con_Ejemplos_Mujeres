@@ -1,0 +1,607 @@
+{
+  "cuban": {
+    "description": "Población cubana con mestizaje español-africano",
+    "skin_tones": {
+      "light": 0.15,
+      "medium-light": 0.25,
+      "medium": 0.35,
+      "medium-dark": 0.2,
+      "dark": 0.05
+    },
+    "hair_colors": {
+      "black": 0.4,
+      "dark brown": 0.35,
+      "medium brown": 0.15,
+      "light brown": 0.08,
+      "blonde": 0.02
+    },
+    "hair_styles": {
+      "curly": 0.3,
+      "wavy": 0.25,
+      "straight": 0.25,
+      "afro": 0.1,
+      "short": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.7,
+      "dark brown": 0.2,
+      "hazel": 0.08,
+      "green": 0.02
+    },
+    "facial_structures": {
+      "oval": 0.3,
+      "round": 0.25,
+      "square": 0.2,
+      "heart-shaped": 0.15,
+      "diamond": 0.1
+    },
+    "ethnic_characteristics": {
+      "latin american features": 0.6,
+      "mixed ethnicity features": 0.25,
+      "european features": 0.1,
+      "african features": 0.05
+    },
+    "facial_features": {
+      "high cheekbones": 0.25,
+      "defined jawline": 0.2,
+      "straight nose": 0.3,
+      "aquiline nose": 0.15,
+      "full lips": 0.2,
+      "medium lips": 0.5,
+      "thin lips": 0.3
+    }
+  },
+  "venezuelan": {
+    "description": "Población venezolana con diversidad étnica",
+    "skin_tones": {
+      "light": 0.2,
+      "medium-light": 0.3,
+      "medium": 0.3,
+      "medium-dark": 0.15,
+      "dark": 0.05
+    },
+    "hair_colors": {
+      "black": 0.35,
+      "dark brown": 0.4,
+      "medium brown": 0.2,
+      "light brown": 0.05
+    },
+    "hair_styles": {
+      "wavy": 0.35,
+      "straight": 0.3,
+      "curly": 0.25,
+      "short": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.75,
+      "dark brown": 0.2,
+      "hazel": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "round": 0.3,
+      "square": 0.2,
+      "heart-shaped": 0.15
+    },
+    "ethnic_characteristics": {
+      "latin american features": 0.7,
+      "mixed ethnicity features": 0.2,
+      "european features": 0.1
+    },
+    "facial_features": {
+      "high cheekbones": 0.3,
+      "defined jawline": 0.25,
+      "straight nose": 0.35,
+      "full lips": 0.25,
+      "medium lips": 0.5,
+      "thin lips": 0.25
+    }
+  },
+  "haitian": {
+    "description": "Población haitiana predominantemente afrodescendiente",
+    "skin_tones": {
+      "medium-dark": 0.3,
+      "dark": 0.5,
+      "very dark": 0.2
+    },
+    "hair_colors": {
+      "black": 0.9,
+      "dark brown": 0.1
+    },
+    "hair_styles": {
+      "afro": 0.4,
+      "curly": 0.35,
+      "short": 0.15,
+      "braided": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.85,
+      "dark brown": 0.15
+    },
+    "facial_structures": {
+      "oval": 0.4,
+      "round": 0.3,
+      "square": 0.2,
+      "diamond": 0.1
+    },
+    "ethnic_characteristics": {
+      "african features": 0.8,
+      "mixed ethnicity features": 0.2
+    },
+    "facial_features": {
+      "high cheekbones": 0.4,
+      "defined jawline": 0.3,
+      "broad nose": 0.35,
+      "full lips": 0.6,
+      "medium lips": 0.4
+    }
+  },
+  "dominican": {
+    "description": "Población dominicana con mestizaje",
+    "skin_tones": {
+      "medium-light": 0.25,
+      "medium": 0.4,
+      "medium-dark": 0.25,
+      "dark": 0.1
+    },
+    "hair_colors": {
+      "black": 0.5,
+      "dark brown": 0.35,
+      "medium brown": 0.15
+    },
+    "hair_styles": {
+      "curly": 0.35,
+      "wavy": 0.3,
+      "straight": 0.25,
+      "afro": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.8,
+      "dark brown": 0.15,
+      "hazel": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "round": 0.3,
+      "square": 0.2,
+      "heart-shaped": 0.15
+    },
+    "ethnic_characteristics": {
+      "latin american features": 0.6,
+      "mixed ethnicity features": 0.3,
+      "african features": 0.1
+    },
+    "facial_features": {
+      "high cheekbones": 0.3,
+      "defined jawline": 0.25,
+      "straight nose": 0.3,
+      "full lips": 0.35,
+      "medium lips": 0.5,
+      "thin lips": 0.15
+    }
+  },
+  "mexican": {
+    "description": "Población mexicana con mestizaje indígena-español",
+    "skin_tones": {
+      "light": 0.15,
+      "medium-light": 0.3,
+      "medium": 0.35,
+      "medium-dark": 0.15,
+      "dark": 0.05
+    },
+    "hair_colors": {
+      "black": 0.45,
+      "dark brown": 0.4,
+      "medium brown": 0.15
+    },
+    "hair_styles": {
+      "straight": 0.4,
+      "wavy": 0.3,
+      "curly": 0.2,
+      "short": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.85,
+      "dark brown": 0.1,
+      "hazel": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "round": 0.3,
+      "square": 0.2,
+      "heart-shaped": 0.15
+    },
+    "ethnic_characteristics": {
+      "latin american features": 0.7,
+      "mixed ethnicity features": 0.2,
+      "indigenous features": 0.1
+    },
+    "facial_features": {
+      "high cheekbones": 0.35,
+      "defined jawline": 0.25,
+      "straight nose": 0.4,
+      "full lips": 0.3,
+      "medium lips": 0.5,
+      "thin lips": 0.2
+    }
+  },
+  "chinese": {
+    "description": "Población china con características específicas del este asiático",
+    "skin_tones": {
+      "light": 0.4,
+      "medium-light": 0.45,
+      "medium": 0.15
+    },
+    "hair_colors": {
+      "black": 0.95,
+      "dark brown": 0.05
+    },
+    "hair_styles": {
+      "straight": 0.8,
+      "short": 0.15,
+      "wavy": 0.05
+    },
+    "eye_colors": {
+      "brown": 0.9,
+      "dark brown": 0.1
+    },
+    "facial_structures": {
+      "oval": 0.3,
+      "round": 0.35,
+      "square": 0.2,
+      "heart-shaped": 0.15
+    },
+    "ethnic_characteristics": {
+      "east asian features": 0.85,
+      "chinese features": 0.15
+    },
+    "facial_features": {
+      "high cheekbones": 0.25,
+      "defined jawline": 0.2,
+      "straight nose": 0.3,
+      "button nose": 0.25,
+      "almond eyes": 0.4,
+      "thin lips": 0.6,
+      "medium lips": 0.4
+    }
+  },
+  "japanese": {
+    "description": "Población japonesa con características específicas del este asiático",
+    "skin_tones": {
+      "light": 0.5,
+      "medium-light": 0.4,
+      "medium": 0.1
+    },
+    "hair_colors": {
+      "black": 0.98,
+      "dark brown": 0.02
+    },
+    "hair_styles": {
+      "straight": 0.85,
+      "short": 0.1,
+      "wavy": 0.05
+    },
+    "eye_colors": {
+      "brown": 0.95,
+      "dark brown": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "round": 0.3,
+      "heart-shaped": 0.2,
+      "square": 0.15
+    },
+    "ethnic_characteristics": {
+      "east asian features": 0.8,
+      "japanese features": 0.2
+    },
+    "facial_features": {
+      "high cheekbones": 0.2,
+      "defined jawline": 0.15,
+      "straight nose": 0.25,
+      "button nose": 0.3,
+      "almond eyes": 0.45,
+      "thin lips": 0.7,
+      "medium lips": 0.3
+    }
+  },
+  "korean": {
+    "description": "Población coreana con características específicas del este asiático",
+    "skin_tones": {
+      "light": 0.45,
+      "medium-light": 0.45,
+      "medium": 0.1
+    },
+    "hair_colors": {
+      "black": 0.97,
+      "dark brown": 0.03
+    },
+    "hair_styles": {
+      "straight": 0.75,
+      "short": 0.15,
+      "wavy": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.92,
+      "dark brown": 0.08
+    },
+    "facial_structures": {
+      "oval": 0.4,
+      "round": 0.25,
+      "heart-shaped": 0.2,
+      "square": 0.15
+    },
+    "ethnic_characteristics": {
+      "east asian features": 0.75,
+      "korean features": 0.25
+    },
+    "facial_features": {
+      "high cheekbones": 0.3,
+      "defined jawline": 0.25,
+      "straight nose": 0.35,
+      "button nose": 0.2,
+      "almond eyes": 0.5,
+      "thin lips": 0.65,
+      "medium lips": 0.35
+    }
+  },
+  "norwegian": {
+    "description": "Población noruega con características nórdicas específicas",
+    "skin_tones": {
+      "light": 0.6,
+      "medium-light": 0.35,
+      "medium": 0.05
+    },
+    "hair_colors": {
+      "blonde": 0.5,
+      "light brown": 0.25,
+      "medium brown": 0.15,
+      "red": 0.1
+    },
+    "hair_styles": {
+      "straight": 0.6,
+      "wavy": 0.25,
+      "curly": 0.1,
+      "short": 0.05
+    },
+    "eye_colors": {
+      "blue": 0.6,
+      "green": 0.2,
+      "hazel": 0.15,
+      "brown": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.3,
+      "square": 0.25,
+      "heart-shaped": 0.2,
+      "round": 0.15,
+      "diamond": 0.1
+    },
+    "ethnic_characteristics": {
+      "nordic features": 0.7,
+      "european features": 0.3
+    },
+    "facial_features": {
+      "high cheekbones": 0.35,
+      "defined jawline": 0.4,
+      "straight nose": 0.45,
+      "aquiline nose": 0.2,
+      "thin lips": 0.5,
+      "medium lips": 0.5
+    }
+  },
+  "finnish": {
+    "description": "Población finlandesa con características nórdicas específicas",
+    "skin_tones": {
+      "light": 0.65,
+      "medium-light": 0.3,
+      "medium": 0.05
+    },
+    "hair_colors": {
+      "blonde": 0.45,
+      "light brown": 0.3,
+      "medium brown": 0.2,
+      "red": 0.05
+    },
+    "hair_styles": {
+      "straight": 0.55,
+      "wavy": 0.3,
+      "curly": 0.1,
+      "short": 0.05
+    },
+    "eye_colors": {
+      "blue": 0.55,
+      "green": 0.25,
+      "hazel": 0.15,
+      "brown": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "square": 0.2,
+      "heart-shaped": 0.25,
+      "round": 0.2
+    },
+    "ethnic_characteristics": {
+      "nordic features": 0.75,
+      "european features": 0.25
+    },
+    "facial_features": {
+      "high cheekbones": 0.3,
+      "defined jawline": 0.35,
+      "straight nose": 0.4,
+      "aquiline nose": 0.15,
+      "thin lips": 0.55,
+      "medium lips": 0.45
+    }
+  },
+  "nigerian": {
+    "description": "Población nigeriana con características del África occidental",
+    "skin_tones": {
+      "medium-dark": 0.3,
+      "dark": 0.5,
+      "very dark": 0.2
+    },
+    "hair_colors": {
+      "black": 0.95,
+      "dark brown": 0.05
+    },
+    "hair_styles": {
+      "afro": 0.35,
+      "curly": 0.4,
+      "braided": 0.15,
+      "short": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.9,
+      "dark brown": 0.1
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "round": 0.3,
+      "square": 0.25,
+      "diamond": 0.1
+    },
+    "ethnic_characteristics": {
+      "west african features": 0.8,
+      "african features": 0.2
+    },
+    "facial_features": {
+      "high cheekbones": 0.45,
+      "defined jawline": 0.35,
+      "broad nose": 0.4,
+      "full lips": 0.7,
+      "medium lips": 0.3
+    }
+  },
+  "ethiopian": {
+    "description": "Población etíope con características del África oriental",
+    "skin_tones": {
+      "medium": 0.2,
+      "medium-dark": 0.4,
+      "dark": 0.35,
+      "very dark": 0.05
+    },
+    "hair_colors": {
+      "black": 0.9,
+      "dark brown": 0.1
+    },
+    "hair_styles": {
+      "curly": 0.45,
+      "afro": 0.3,
+      "braided": 0.15,
+      "short": 0.1
+    },
+    "eye_colors": {
+      "brown": 0.85,
+      "dark brown": 0.15
+    },
+    "facial_structures": {
+      "oval": 0.4,
+      "round": 0.25,
+      "square": 0.2,
+      "diamond": 0.15
+    },
+    "ethnic_characteristics": {
+      "east african features": 0.75,
+      "african features": 0.25
+    },
+    "facial_features": {
+      "high cheekbones": 0.5,
+      "defined jawline": 0.3,
+      "straight nose": 0.35,
+      "broad nose": 0.25,
+      "full lips": 0.6,
+      "medium lips": 0.4
+    }
+  },
+  "german": {
+    "description": "Población alemana con características centroeuropeas",
+    "skin_tones": {
+      "light": 0.5,
+      "medium-light": 0.4,
+      "medium": 0.1
+    },
+    "hair_colors": {
+      "blonde": 0.3,
+      "light brown": 0.35,
+      "medium brown": 0.25,
+      "dark brown": 0.1
+    },
+    "hair_styles": {
+      "straight": 0.5,
+      "wavy": 0.35,
+      "curly": 0.1,
+      "short": 0.05
+    },
+    "eye_colors": {
+      "blue": 0.4,
+      "green": 0.15,
+      "hazel": 0.2,
+      "brown": 0.25
+    },
+    "facial_structures": {
+      "oval": 0.3,
+      "square": 0.3,
+      "heart-shaped": 0.2,
+      "round": 0.2
+    },
+    "ethnic_characteristics": {
+      "central european features": 0.6,
+      "european features": 0.4
+    },
+    "facial_features": {
+      "high cheekbones": 0.25,
+      "defined jawline": 0.45,
+      "straight nose": 0.5,
+      "aquiline nose": 0.15,
+      "thin lips": 0.4,
+      "medium lips": 0.6
+    }
+  },
+  "italian": {
+    "description": "Población italiana con características mediterráneas",
+    "skin_tones": {
+      "light": 0.25,
+      "medium-light": 0.4,
+      "medium": 0.25,
+      "olive": 0.1
+    },
+    "hair_colors": {
+      "dark brown": 0.5,
+      "black": 0.3,
+      "medium brown": 0.15,
+      "light brown": 0.05
+    },
+    "hair_styles": {
+      "wavy": 0.4,
+      "curly": 0.3,
+      "straight": 0.25,
+      "short": 0.05
+    },
+    "eye_colors": {
+      "brown": 0.6,
+      "dark brown": 0.25,
+      "hazel": 0.1,
+      "green": 0.05
+    },
+    "facial_structures": {
+      "oval": 0.35,
+      "round": 0.25,
+      "square": 0.2,
+      "heart-shaped": 0.2
+    },
+    "ethnic_characteristics": {
+      "mediterranean features": 0.7,
+      "european features": 0.3
+    },
+    "facial_features": {
+      "high cheekbones": 0.3,
+      "defined jawline": 0.35,
+      "straight nose": 0.4,
+      "aquiline nose": 0.2,
+      "full lips": 0.25,
+      "medium lips": 0.6,
+      "thin lips": 0.15
+    }
+  }
+}

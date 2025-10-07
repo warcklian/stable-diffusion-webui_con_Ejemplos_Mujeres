@@ -1,0 +1,27 @@
+{
+  "name": "Pasaporte Cubano",
+  "description": "Configuración específica para fotos de pasaporte cubanas con características étnicas auténticas",
+  "created": "2025-09-13T00:18:36.961520",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "cubana",
+      "cantidad": 15,
+      "edad_min": 25,
+      "edad_max": 45,
+      "prompt_type": "passport_photography",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 1,
+      "n_iter": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Diversidad Venezolana Completa",
+  "description": "Plantilla completa para diversidad venezolana con prompts específicos",
+  "created": "2025-09-13T00:22:28.462999",
+  "last_used": null,
+  "usage_count": 0,
+  "config": {
+    "diversidad": {
+      "nacionalidad": "venezolana",
+      "cantidad": 25,
+      "edad_min": 18,
+      "edad_max": 55,
+      "prompt_type": "venezuelan_diversity",
+      "model": "",
+      "output_dir": "generated_images"
+    },
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 25,
+      "cfg_scale": 7.0,
+      "sampler": "DPM++ 2M Karras",
+      "batch_size": 2,
+      "n_iter": 1
+    },
+    "prompts": {
+      "base_prompt": "venezuelan mujer, diverse venezuelan ethnicity, natural skin variations, authentic venezuelan features, realistic hair texture, natural eye color, common person appearance, not model, realistic imperfections, natural lighting, professional photography, varied venezuelan skin tones, natural hair variations, authentic venezuelan facial features, natural skin texture, realistic venezuelan diversity, authentic venezuelan representation, natural ethnic diversity",
+      "negative_prompt": "perfect skin, flawless, model look, glamour, makeup, jewelry, accessories, smiling, laughing, cartoon, anime, painting, drawing, illustration, fantasy, unrealistic, blurry, low quality, distorted, uniform appearance, non-venezuelan features, stereotypical venezuelan features, exaggerated features, artificial diversity, token representation, non-venezuelan ethnicity"
+    }
+  }
+}
